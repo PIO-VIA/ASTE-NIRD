@@ -15,6 +15,11 @@
     "story": {
         "case1": "In the Digital Empire, Big Tech imposed their law: forced updates, mandatory subscriptions, planned obsolescence...",
         "case2": "But a small village still resisted... Armed with free software, reuse, and creativity.",
-        "case3": "Their magic potion? The NIRD: Inclusive, Responsible, and Sustainable Digital."
+        "case3": "Their magic potion? The NIRD: Inclusive, Responsible, and Sustainable Digital.",
+        "step": "Step {{number}}",
+        "scrollPrompt": "Continue to reveal the story"
+    },
+    "footer": {
+        "copyright": "© 2025 Aste-NIRD. All rights reserved."
     }
 }

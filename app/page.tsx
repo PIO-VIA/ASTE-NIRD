@@ -1,11 +1,14 @@
 "use client";
 
+import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from '../components/LanguageSwitcher';
 import HeroSection from '../components/ui/HeroSection';
 import PresentationSection from '../components/ui/PresentationSection';
-import StorySection from '../components/ui/StorySection';
+import ScrollytellingStorySection from '../components/ScrollytellingStorySection';
 
 export default function Home() {
+  const { t } = useTranslation();
+
   return (
     <main className="min-h-screen bg-nird-night text-white font-outfit">
       <div className="fixed top-4 right-4 z-50">
@@ -14,10 +17,10 @@ export default function Home() {
 
       <HeroSection />
       <PresentationSection />
-      <StorySection />
+      <ScrollytellingStorySection />
 
       <footer className="py-8 text-center text-white/40 text-sm">
-        <p>&copy; 2025 Aste-NIRD. Tous droits réservés.</p>
+        <p>{t('footer.copyright')}</p>
       </footer>
     </main>
   );

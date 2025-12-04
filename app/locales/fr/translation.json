@@ -13,8 +13,13 @@
         "immersion": "Une immersion dans le village NIRD contre l’Empire Big Tech"
     },
     "story": {
-        "case1": "Dans l’Empire du Numérique, les Big Tech imposaient leur loi : mises à jour forcées, abonnements obligatoires, matériel rendu obsolète…",
+        "case1": "Dans l'Empire du Numérique, les Big Tech imposaient leur loi : mises à jour forcées, abonnements obligatoires, matériel rendu obsolète…",
         "case2": "Mais un petit village résistait encore et toujours… Armé de logiciels libres, de réemploi et de créativité.",
-        "case3": "Leur potion magique ? Le NIRD : Numérique Inclusif, Responsable et Durable."
+        "case3": "Leur potion magique ? Le NIRD : Numérique Inclusif, Responsable et Durable.",
+        "step": "Étape {{number}}",
+        "scrollPrompt": "Continuez pour révéler l'histoire"
+    },
+    "footer": {
+        "copyright": "© 2025 Aste-NIRD. Tous droits réservés."
     }
 }
