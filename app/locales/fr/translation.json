@@ -1,4 +1,20 @@
 {
-    "welcome": "Bienvenue à la Nuit de l'Info",
-    "description": "Ceci est une plateforme éducative 3D sur le système solaire."
+    "welcome": "Bienvenue sur Aste-NIRD",
+    "description": "Le village numérique qui résiste encore et toujours aux Big Tech.",
+    "hero": {
+        "title": "Aste-NIRD",
+        "subtitle": "Le village numérique qui résiste encore et toujours aux Big Tech.",
+        "scroll": "Faites défiler pour entrer dans l’aventure…"
+    },
+    "presentation": {
+        "story": "Une histoire interactive inspirée d’Asté-NIRD",
+        "journey": "Un parcours ludique pour comprendre le numérique responsable",
+        "quiz": "Des quiz et défis pour tester votre résistance numérique",
+        "immersion": "Une immersion dans le village NIRD contre l’Empire Big Tech"
+    },
+    "story": {
+        "case1": "Dans l’Empire du Numérique, les Big Tech imposaient leur loi : mises à jour forcées, abonnements obligatoires, matériel rendu obsolète…",
+        "case2": "Mais un petit village résistait encore et toujours… Armé de logiciels libres, de réemploi et de créativité.",
+        "case3": "Leur potion magique ? Le NIRD : Numérique Inclusif, Responsable et Durable."
+    }
 }

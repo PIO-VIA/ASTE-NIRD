@@ -10,6 +10,12 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-carter: var(--font-carter);
+  --font-outfit: var(--font-outfit);
+  --color-nird-night: #0a0a1a;
+  --color-nird-gold: #ffd700;
+  --color-nird-green: #4caf50;
+  --color-nird-red: #e53935;
 }
 
 @media (prefers-color-scheme: dark) {
