@@ -1,9 +1,10 @@
 'use client';
 
+import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { Shield, Home, BookOpen, Globe } from 'lucide-react';
+import { Shield, Home, BookOpen, Globe, Gamepad2 } from 'lucide-react';
 import LanguageSwitcher from '../LanguageSwitcher';
 
 export default function Navbar() {
@@ -34,8 +35,9 @@ export default function Navbar() {
     }, []);
 
     const navLinks = [
-        { href: '#home', label: t('navbar.home'), icon: <Home className="w-4 h-4" /> },
-        { href: '#story', label: t('navbar.story'), icon: <BookOpen className="w-4 h-4" /> },
+        { href: '/', label: t('navbar.home'), icon: <Home className="w-4 h-4" /> },
+        { href: '/#story', label: t('navbar.story'), icon: <BookOpen className="w-4 h-4" /> },
+        { href: '/jeux', label: t('navbar.quiz'), icon: <Gamepad2 className="w-4 h-4" /> },
     ];
 
     return (
@@ -50,44 +52,46 @@ export default function Navbar() {
             <div className="container mx-auto px-4">
                 <div className="flex items-center justify-between h-20">
                     {/* Logo et nom de l'application */}
-                    <motion.div
-                        className="flex items-center gap-3 group cursor-pointer"
-                        whileHover={{ scale: 1.05 }}
-                        transition={{ duration: 0.2 }}
-                    >
-                        <div className="relative">
-                            <div className="absolute inset-0 bg-nird-gold/20 blur-xl rounded-full group-hover:bg-nird-gold/30 transition-all duration-300" />
-                            <div className="relative bg-gradient-to-br from-nird-gold to-nird-red p-2.5 rounded-xl group-hover:rotate-12 transition-transform duration-300">
-                                <Shield className="w-6 h-6 text-nird-night" />
+                    <Link href="/" passHref>
+                        <motion.div
+                            className="flex items-center gap-3 group cursor-pointer"
+                            whileHover={{ scale: 1.05 }}
+                            transition={{ duration: 0.2 }}
+                        >
+                            <div className="relative">
+                                <div className="absolute inset-0 bg-nird-gold/20 blur-xl rounded-full group-hover:bg-nird-gold/30 transition-all duration-300" />
+                                <div className="relative bg-gradient-to-br from-nird-gold to-nird-red p-2.5 rounded-xl group-hover:rotate-12 transition-transform duration-300">
+                                    <Shield className="w-6 h-6 text-nird-night" />
+                                </div>
                             </div>
-                        </div>
-                        <div className="flex flex-col">
-                            <span className="text-xl font-bold text-white font-outfit tracking-tight">
-                                Aste-NIRD
-                            </span>
-                            <span className="text-xs text-nird-gold font-outfit">
-                                {t('navbar.tagline')}
-                            </span>
-                        </div>
-                    </motion.div>
+                            <div className="flex flex-col">
+                                <span className="text-xl font-bold text-white font-outfit tracking-tight">
+                                    Aste-NIRD
+                                </span>
+                                <span className="text-xs text-nird-gold font-outfit">
+                                    {t('navbar.tagline')}
+                                </span>
+                            </div>
+                        </motion.div>
+                    </Link>
 
                     {/* Navigation Links */}
                     <div className="hidden md:flex items-center gap-6">
                         {navLinks.map((link, index) => (
-                            <motion.a
-                                key={index}
-                                href={link.href}
-                                className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors duration-200 group"
-                                whileHover={{ y: -2 }}
-                                transition={{ duration: 0.2 }}
-                            >
-                                <span className="group-hover:text-nird-gold transition-colors">
-                                    {link.icon}
-                                </span>
-                                <span className="font-outfit font-medium">
-                                    {link.label}
-                                </span>
-                            </motion.a>
+                            <Link key={index} href={link.href} passHref>
+                                <motion.div
+                                    className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors duration-200 group cursor-pointer"
+                                    whileHover={{ y: -2 }}
+                                    transition={{ duration: 0.2 }}
+                                >
+                                    <span className="group-hover:text-nird-gold transition-colors">
+                                        {link.icon}
+                                    </span>
+                                    <span className="font-outfit font-medium">
+                                        {link.label}
+                                    </span>
+                                </motion.div>
+                            </Link>
                         ))}
                     </div>
 
