@@ -1,4 +1,30 @@
 {
-    "welcome": "Welcome to Nuit Info",
-    "description": "This is a 3D Solar System Educational Platform."
+    "welcome": "Welcome to Aste-NIRD",
+    "description": "The digital village that still resists Big Tech.",
+    "navbar": {
+        "tagline": "Digital Resistance",
+        "home": "Home",
+        "story": "Story"
+    },
+    "hero": {
+        "title": "Aste-NIRD",
+        "subtitle": "The digital village that still resists Big Tech.",
+        "scroll": "Scroll to enter the adventure..."
+    },
+    "presentation": {
+        "story": "Interactive story inspired by Aste-NIRD",
+        "journey": "Playful journey to understand responsible digital",
+        "quiz": "Quizzes and challenges to test your digital resistance",
+        "immersion": "Immersion in the NIRD village against the Big Tech Empire"
+    },
+    "story": {
+        "case1": "In the Digital Empire, Big Tech imposed their law: forced updates, mandatory subscriptions, planned obsolescence...",
+        "case2": "But a small village still resisted... Armed with free software, reuse, and creativity.",
+        "case3": "Their magic potion? The NIRD: Inclusive, Responsible, and Sustainable Digital.",
+        "step": "Step {{number}}",
+        "scrollPrompt": "Continue to reveal the story"
+    },
+    "footer": {
+        "copyright": "© 2025 Aste-NIRD. All rights reserved."
+    }
 }

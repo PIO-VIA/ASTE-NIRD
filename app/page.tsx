@@ -2,19 +2,25 @@
 
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from '../components/LanguageSwitcher';
+import Navbar from '../components/ui/Navbar';
+import HeroSection from '../components/ui/HeroSection';
+import PresentationSection from '../components/ui/PresentationSection';
+import ScrollytellingStorySection from '../components/ScrollytellingStorySection';
 
 export default function Home() {
   const { t } = useTranslation();
 
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <header className="absolute top-4 right-4">
-        <LanguageSwitcher />
-      </header>
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <h1 className="text-4xl font-bold">{t('welcome')}</h1>
-        <p className="text-lg">{t('description')}</p>
-      </main>
-    </div>
+    <main className="min-h-screen bg-nird-night text-white font-outfit">
+      <Navbar />
+
+      <HeroSection />
+      <PresentationSection />
+      <ScrollytellingStorySection />
+
+      <footer className="py-8 text-center text-white/40 text-sm">
+        <p>{t('footer.copyright')}</p>
+      </footer>
+    </main>
   );
 }
