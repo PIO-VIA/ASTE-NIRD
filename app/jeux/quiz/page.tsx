@@ -1,7 +1,8 @@
 // app/jeux/quiz/page.tsx
 'use client';
+import allQuizzes from '@/lib/quiz/data';
 
-import { allQuizzes } from '@/lib/quiz/data';
+
 import { getUserStats, getBestPercentage } from '@/lib/quiz/utils';
 import QuizCard from './components/QuizCard';
 import Card from '@/components/ui/Card';
