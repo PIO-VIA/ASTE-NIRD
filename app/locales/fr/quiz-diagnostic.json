@@ -1,0 +1,71 @@
+{
+  "quizData": {
+    "diagnostic": {
+      "metadata": {
+        "title": "Es-tu prisonnier de l'Empire numérique ?",
+        "description": "Évalue le niveau de dépendance numérique de ton établissement aux Big Tech et découvre ton profil de résistant."
+      },
+      "questions": {
+        "q1": {
+          "question": "Combien ton établissement dépense-t-il par an en licences logicielles ?",
+          "subtitle": "Windows, Office, antivirus, logiciels spécialisés...",
+          "options": {
+            "a": "Moins de 10 000€",
+            "b": "Entre 10 000€ et 50 000€",
+            "c": "Plus de 50 000€",
+            "d": "Je ne sais pas du tout"
+          },
+          "explanation": "En moyenne, un lycée français dépense entre 30 000€ et 60 000€ par an en licences propriétaires. Avec le libre, ce coût pourrait être réduit à quasi zéro, libérant des budgets pour d'autres projets pédagogiques."
+        },
+        "q2": {
+          "question": "Que se passera-t-il quand Windows 10 ne sera plus supporté (octobre 2025) ?",
+          "options": {
+            "a": "On devra acheter de nouveaux PC pour Windows 11",
+            "b": "On peut installer Linux sur les anciens PC",
+            "c": "On continuera avec Windows 10 sans mise à jour",
+            "d": "Je ne sais pas"
+          },
+          "explanation": "La fin du support de Windows 10 crée une obsolescence programmée massive. Linux permet de donner une seconde vie à des milliers d'ordinateurs parfaitement fonctionnels, évitant un gaspillage environnemental et financier énorme."
+        }
+      },
+      "profiles": {
+        "vercingetorix": {
+          "name": "Vercingétorix - Chef de la Résistance",
+          "description": "Tu es un véritable leader de la résistance numérique ! Ton établissement a déjà entamé une transition vers le libre et tu comprends parfaitement les enjeux.",
+          "recommendations": {
+            "0": "Continue de partager ton expérience avec d'autres établissements",
+            "1": "Approfondir tes connaissances techniques pour optimiser encore plus votre infrastructure",
+            "2": "Devenir ambassadeur NIRD pour inspirer d'autres à franchir le pas"
+          }
+        },
+        "guerrier": {
+          "name": "Guerrier du Libre",
+          "description": "Tu es conscient des problèmes posés par les Big Tech et tu commences à mettre en place des alternatives. Continue comme ça !",
+          "recommendations": {
+            "0": "Planifier une transition progressive vers les logiciels libres",
+            "1": "Former les équipes aux outils libres pour faciliter l'adoption",
+            "2": "Rejoindre des communautés NIRD pour échanger bonnes pratiques"
+          }
+        },
+        "asterix": {
+          "name": "Astérix - Résistant en Devenir",
+          "description": "Tu commences à t'intéresser aux alternatives libres mais ton établissement reste très dépendant des Big Tech. C'est le moment d'agir !",
+          "recommendations": {
+            "0": "Commencer par des outils simples comme LibreOffice ou Firefox",
+            "1": "Sensibiliser ton équipe aux enjeux de souveraineté numérique",
+            "2": "Faire un audit complet de vos dépendances aux GAFAM"
+          }
+        },
+        "panoramix": {
+          "name": "Panoramix - Apprenti Druide",
+          "description": "Tu découvres tout juste les enjeux du numérique libre. Pas de panique, le druide Panoramix va t'aider à préparer la potion magique !",
+          "recommendations": {
+            "0": "S'informer sur les logiciels libres et leurs avantages",
+            "1": "Tester des alternatives libres sur un poste de travail",
+            "2": "Participer à des formations NIRD pour monter en compétence"
+          }
+        }
+      }
+    }
+  }
+}

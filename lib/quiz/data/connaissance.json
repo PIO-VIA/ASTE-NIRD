@@ -1,0 +1,484 @@
+{
+  "metadata": {
+    "id": "quiz-connaissance",
+    "slug": "connaissance",
+    "title": "Connais-tu vraiment les alternatives libres ?",
+    "description": "Teste tes connaissances sur les logiciels libres, Linux et les solutions alternatives aux Big Tech.",
+    "category": "connaissance",
+    "difficulty": "intermediaire",
+    "estimatedTime": 7,
+    "questionsCount": 12,
+    "icon": "🧠",
+    "color": "#8b5cf6",
+    "gradient": "linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%)",
+    "keywords": ["connaissances", "logiciels libres", "linux", "alternatives", "culture"]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un logiciel libre ?",
+      "options": [
+        {
+          "id": "q1-a",
+          "text": "Un logiciel gratuit",
+          "points": 1
+        },
+        {
+          "id": "q1-b",
+          "text": "Un logiciel dont le code source est accessible et modifiable",
+          "points": 3
+        },
+        {
+          "id": "q1-c",
+          "text": "Un logiciel sans publicité",
+          "points": 0
+        },
+        {
+          "id": "q1-d",
+          "text": "Un logiciel open source",
+          "points": 2
+        }
+      ],
+      "explanation": "Un logiciel libre garantit 4 libertés essentielles : utiliser, étudier, modifier et redistribuer. La gratuité est une conséquence, pas une définition. Open source et libre sont proches mais ont des nuances philosophiques.",
+      "source": "Free Software Foundation",
+      "difficulty": "intermediaire",
+      "tags": ["définition", "philosophie", "libertés"]
+    },
+    {
+      "id": "q2",
+      "question": "Quelle est l'alternative libre à Microsoft Office ?",
+      "options": [
+        {
+          "id": "q2-a",
+          "text": "Google Docs",
+          "points": 0
+        },
+        {
+          "id": "q2-b",
+          "text": "LibreOffice",
+          "points": 3
+        },
+        {
+          "id": "q2-c",
+          "text": "WPS Office",
+          "points": 1
+        },
+        {
+          "id": "q2-d",
+          "text": "Apple iWork",
+          "points": 0
+        }
+      ],
+      "explanation": "LibreOffice est la suite bureautique libre de référence, compatible avec les formats Microsoft, gratuite et complète. Google Docs est gratuit mais propriétaire et centralisé.",
+      "source": "The Document Foundation",
+      "sourceUrl": "https://www.libreoffice.org/",
+      "difficulty": "debutant",
+      "tags": ["alternatives", "bureautique"]
+    },
+    {
+      "id": "q3",
+      "question": "Linux est...",
+      "options": [
+        {
+          "id": "q3-a",
+          "text": "Un système d'exploitation complet",
+          "points": 2
+        },
+        {
+          "id": "q3-b",
+          "text": "Uniquement le noyau du système",
+          "points": 3
+        },
+        {
+          "id": "q3-c",
+          "text": "Un logiciel de bureautique",
+          "points": 0
+        },
+        {
+          "id": "q3-d",
+          "text": "Une marque d'ordinateur",
+          "points": 0
+        }
+      ],
+      "explanation": "Techniquement, Linux est le noyau. Les distributions (Ubuntu, Debian, Fedora...) combinent Linux avec d'autres logiciels pour former un système complet. On devrait dire GNU/Linux !",
+      "source": "Linux Foundation",
+      "difficulty": "intermediaire",
+      "tags": ["linux", "technique"]
+    },
+    {
+      "id": "q4",
+      "question": "Quelle alternative libre pour retoucher des photos ?",
+      "options": [
+        {
+          "id": "q4-a",
+          "text": "GIMP",
+          "points": 3
+        },
+        {
+          "id": "q4-b",
+          "text": "Canva",
+          "points": 0
+        },
+        {
+          "id": "q4-c",
+          "text": "Photopea",
+          "points": 1
+        },
+        {
+          "id": "q4-d",
+          "text": "Pixlr",
+          "points": 0
+        }
+      ],
+      "explanation": "GIMP (GNU Image Manipulation Program) est l'alternative libre à Photoshop. Gratuit, puissant et multiplateforme, il est utilisé par des millions de professionnels et amateurs.",
+      "source": "GIMP",
+      "sourceUrl": "https://www.gimp.org/",
+      "difficulty": "debutant",
+      "tags": ["alternatives", "graphisme"]
+    },
+    {
+      "id": "q5",
+      "question": "Quel navigateur web est libre et respectueux de la vie privée ?",
+      "options": [
+        {
+          "id": "q5-a",
+          "text": "Google Chrome",
+          "points": 0
+        },
+        {
+          "id": "q5-b",
+          "text": "Firefox",
+          "points": 3
+        },
+        {
+          "id": "q5-c",
+          "text": "Edge",
+          "points": 0
+        },
+        {
+          "id": "q5-d",
+          "text": "Opera",
+          "points": 1
+        }
+      ],
+      "explanation": "Firefox (Mozilla) est le principal navigateur libre. Il respecte la vie privée, est personnalisable et indépendant des GAFAM. Chromium est open source mais contrôlé par Google.",
+      "source": "Mozilla Foundation",
+      "sourceUrl": "https://www.mozilla.org/",
+      "difficulty": "debutant",
+      "tags": ["alternatives", "navigateurs", "vie privée"]
+    },
+    {
+      "id": "q6",
+      "question": "Pour du montage vidéo libre, on peut utiliser...",
+      "options": [
+        {
+          "id": "q6-a",
+          "text": "Adobe Premiere",
+          "points": 0
+        },
+        {
+          "id": "q6-b",
+          "text": "Kdenlive",
+          "points": 3
+        },
+        {
+          "id": "q6-c",
+          "text": "DaVinci Resolve",
+          "points": 1
+        },
+        {
+          "id": "q6-d",
+          "text": "Final Cut Pro",
+          "points": 0
+        }
+      ],
+      "explanation": "Kdenlive est un éditeur vidéo libre professionnel. DaVinci Resolve est gratuit mais propriétaire. D'autres alternatives libres existent : OpenShot, Shotcut...",
+      "source": "KDE",
+      "sourceUrl": "https://kdenlive.org/",
+      "difficulty": "intermediaire",
+      "tags": ["alternatives", "vidéo", "multimédia"]
+    },
+    {
+      "id": "q7",
+      "question": "Quelle est la licence libre la plus utilisée ?",
+      "options": [
+        {
+          "id": "q7-a",
+          "text": "MIT",
+          "points": 2
+        },
+        {
+          "id": "q7-b",
+          "text": "GPL (GNU General Public License)",
+          "points": 3
+        },
+        {
+          "id": "q7-c",
+          "text": "Apache",
+          "points": 2
+        },
+        {
+          "id": "q7-d",
+          "text": "BSD",
+          "points": 1
+        }
+      ],
+      "explanation": "La GPL est la licence historique du logiciel libre, créée par Richard Stallman. Elle garantit que les modifications restent libres (copyleft). MIT et Apache sont aussi très populaires.",
+      "source": "GNU Project",
+      "difficulty": "avance",
+      "tags": ["licences", "juridique", "technique"]
+    },
+    {
+      "id": "q8",
+      "question": "Pour remplacer Dropbox/Google Drive, on peut utiliser...",
+      "options": [
+        {
+          "id": "q8-a",
+          "text": "Nextcloud",
+          "points": 3
+        },
+        {
+          "id": "q8-b",
+          "text": "OneDrive",
+          "points": 0
+        },
+        {
+          "id": "q8-c",
+          "text": "iCloud",
+          "points": 0
+        },
+        {
+          "id": "q8-d",
+          "text": "Mega",
+          "points": 1
+        }
+      ],
+      "explanation": "Nextcloud est une solution de cloud libre et auto-hébergeable. Elle offre stockage, partage, calendrier, contacts... le tout sous ton contrôle. Idéal pour la souveraineté des données scolaires.",
+      "source": "Nextcloud",
+      "sourceUrl": "https://nextcloud.com/",
+      "difficulty": "intermediaire",
+      "tags": ["alternatives", "cloud", "souveraineté"]
+    },
+    {
+      "id": "q9",
+      "question": "Quel lecteur multimédia libre lit presque tous les formats ?",
+      "options": [
+        {
+          "id": "q9-a",
+          "text": "Windows Media Player",
+          "points": 0
+        },
+        {
+          "id": "q9-b",
+          "text": "iTunes",
+          "points": 0
+        },
+        {
+          "id": "q9-c",
+          "text": "VLC",
+          "points": 3
+        },
+        {
+          "id": "q9-d",
+          "text": "QuickTime",
+          "points": 0
+        }
+      ],
+      "explanation": "VLC (VideoLAN) est LE lecteur multimédia universel. Libre, gratuit, multiplateforme, il lit tout sans codecs additionnels. Un incontournable !",
+      "source": "VideoLAN",
+      "sourceUrl": "https://www.videolan.org/",
+      "difficulty": "debutant",
+      "tags": ["alternatives", "multimédia"]
+    },
+    {
+      "id": "q10",
+      "question": "Pour enregistrer son écran en libre, on utilise...",
+      "options": [
+        {
+          "id": "q10-a",
+          "text": "Camtasia",
+          "points": 0
+        },
+        {
+          "id": "q10-b",
+          "text": "OBS Studio",
+          "points": 3
+        },
+        {
+          "id": "q10-c",
+          "text": "Snagit",
+          "points": 0
+        },
+        {
+          "id": "q10-d",
+          "text": "ScreenFlow",
+          "points": 0
+        }
+      ],
+      "explanation": "OBS Studio (Open Broadcaster Software) est la référence pour le streaming et l'enregistrement d'écran. Utilisé par les youtubeurs et les enseignants pour créer des tutoriels.",
+      "source": "OBS Project",
+      "sourceUrl": "https://obsproject.com/",
+      "difficulty": "intermediaire",
+      "tags": ["alternatives", "capture", "enseignement"]
+    },
+    {
+      "id": "q11",
+      "question": "Quelle distribution Linux est recommandée pour débuter ?",
+      "options": [
+        {
+          "id": "q11-a",
+          "text": "Arch Linux",
+          "points": 0
+        },
+        {
+          "id": "q11-b",
+          "text": "Ubuntu ou Linux Mint",
+          "points": 3
+        },
+        {
+          "id": "q11-c",
+          "text": "Gentoo",
+          "points": 0
+        },
+        {
+          "id": "q11-d",
+          "text": "Kali Linux",
+          "points": 0
+        }
+      ],
+      "explanation": "Ubuntu et Linux Mint sont très accessibles pour débuter. Interface familière, vaste communauté, logithèque riche. Pour l'éducation, Debian Edu et Primtux sont aussi excellentes.",
+      "source": "Lycée Carnot",
+      "sourceUrl": "https://tube-numerique-educatif.apps.education.fr/w/3LXem3XK4asbwZa5R1qGkW",
+      "difficulty": "debutant",
+      "tags": ["linux", "distributions", "débutants"]
+    },
+    {
+      "id": "q12",
+      "question": "Combien coûte LibreOffice pour une école de 1000 élèves ?",
+      "options": [
+        {
+          "id": "q12-a",
+          "text": "10 000€",
+          "points": 0
+        },
+        {
+          "id": "q12-b",
+          "text": "5 000€",
+          "points": 0
+        },
+        {
+          "id": "q12-c",
+          "text": "1 000€",
+          "points": 0
+        },
+        {
+          "id": "q12-d",
+          "text": "0€ (gratuit)",
+          "points": 3
+        }
+      ],
+      "explanation": "LibreOffice est 100% gratuit, sans limite d'utilisateurs. Comparez avec Office 365 : environ 80€/an/utilisateur = 80 000€/an pour 1000 élèves. Sur 5 ans : 400 000€ d'économies !",
+      "source": "The Document Foundation",
+      "difficulty": "debutant",
+      "tags": ["coûts", "économies", "bureautique"]
+    }
+  ],
+  "profils": [
+    {
+      "id": "vercingetorix",
+      "name": "Novice du Libre",
+      "minScore": 0,
+      "maxScore": 24,
+      "title": "Apprenti Gaulois",
+      "subtitle": "🌱 Tu débutes dans le monde du libre",
+      "description": "Tu découvres tout juste l'univers du logiciel libre. C'est un excellent début ! Avec un peu de formation et de pratique, tu vas vite progresser. Chaque druide a commencé comme toi.",
+      "icon": "🌱",
+      "color": "#ef4444",
+      "gradient": "linear-gradient(135deg, #ef4444 0%, #dc2626 100%)",
+      "recommendations": [
+        "📚 Visite Framasoft.org pour découvrir les alternatives",
+        "💻 Installe une distribution Linux en dual-boot ou sur une clé USB",
+        "🎥 Regarde des tutoriels sur PeerTube",
+        "👥 Rejoins une communauté d'entraide (forums, Discord...)"
+      ],
+      "nextSteps": [
+        "Refais ce quiz après avoir exploré les alternatives",
+        "Essaie 3 logiciels libres cette semaine",
+        "Passe au quiz 'Action' pour des cas pratiques"
+      ],
+      "shareMessage": "Je découvre le monde du logiciel libre ! 🌱 C'est le début de mon voyage vers l'autonomie numérique. #NIRD #ApprentissageLibre"
+    },
+    {
+      "id": "guerrier",
+      "name": "Connaisseur",
+      "minScore": 25,
+      "maxScore": 29,
+      "title": "Gaulois Éclairé",
+      "subtitle": "📚 Tu connais bien les alternatives",
+      "description": "Bravo ! Tu as de bonnes connaissances sur le libre. Tu identifies les principales alternatives et comprends les enjeux. Continue à approfondir et à expérimenter pour devenir expert.",
+      "icon": "📚",
+      "color": "#f97316",
+      "gradient": "linear-gradient(135deg, #f97316 0%, #ea580c 100%)",
+      "recommendations": [
+        "🔧 Passe à la pratique : installe et utilise quotidiennement",
+        "📖 Lis sur les licences libres et la philosophie du libre",
+        "🎓 Forme un collègue aux outils que tu maîtrises",
+        "🌐 Contribue à un projet libre (traduction, doc, code...)"
+      ],
+      "nextSteps": [
+        "Deviens référent logiciels libres dans ton établissement",
+        "Participe à des événements (Journée du Libre, RMLL...)",
+        "Propose un atelier dans ton établissement"
+      ],
+      "shareMessage": "Connaisseur du logiciel libre ! 📚 Je maîtrise les alternatives et je les partage autour de moi. #NIRD #CultureLibre"
+    },
+    {
+      "id": "asterix",
+      "name": "Expert",
+      "minScore": 30,
+      "maxScore": 33,
+      "title": "Druide en Devenir",
+      "subtitle": "🎓 Expert des solutions libres",
+      "description": "Excellent ! Tu maîtrises très bien l'écosystème du libre. Tu connais les outils, les concepts et les enjeux. Tu es prêt à transmettre et à accompagner d'autres vers l'autonomie numérique.",
+      "icon": "🎓",
+      "color": "#fbbf24",
+      "gradient": "linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%)",
+      "recommendations": [
+        "🎤 Interviens dans des formations ou conférences",
+        "✍️ Rédige des tutoriels et guides",
+        "🤝 Mentorise des débutants",
+        "🔬 Explore des solutions avancées (serveurs, DevOps libre...)"
+      ],
+      "nextSteps": [
+        "Deviens formateur NIRD",
+        "Contribue activement à des projets libres",
+        "Partage ton expertise sur la Forge"
+      ],
+      "shareMessage": "Expert du logiciel libre ! 🎓 Je maîtrise les alternatives et j'accompagne la transition numérique. #NIRD #ExpertLibre"
+    },
+    {
+      "id": "panoramix",
+      "name": "Maître",
+      "minScore": 34,
+      "maxScore": 36,
+      "title": "Grand Druide du Libre",
+      "subtitle": "🧙‍♂️ Maître absolu des alternatives",
+      "description": "Exceptionnel ! Tu es un véritable expert du libre. Tu connais les moindres détails, tu maîtrises les concepts avancés. Tu es un pilier de la communauté. Continue à partager ta sagesse !",
+      "icon": "🧙‍♂️",
+      "color": "#10b981",
+      "gradient": "linear-gradient(135deg, #10b981 0%, #059669 100%)",
+      "recommendations": [
+        "🌟 Deviens ambassadeur du libre",
+        "📚 Écris un livre ou des articles de référence",
+        "🎯 Crée du contenu éducatif (vidéos, cours...)",
+        "🌍 Participe à la gouvernance de projets libres majeurs"
+      ],
+      "nextSteps": [
+        "Rejoins les instances de décision du libre éducatif",
+        "Représente NIRD dans des événements nationaux/internationaux",
+        "Innove et crée de nouvelles solutions"
+      ],
+      "shareMessage": "Grand Druide du Libre ! 🧙‍♂️ Score parfait au quiz NIRD. Je partage ma passion pour un numérique libre, éthique et souverain. #NIRD #GrandDruide #MaîtreLibre"
+    }
+  ]
+}

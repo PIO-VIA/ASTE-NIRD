@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Carter_One, Outfit } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
+import Navbar from "@/components/ui/Navbar";
 
 const carterOne = Carter_One({
   weight: "400",
@@ -29,7 +30,10 @@ export default function RootLayout({
       <body
         className={`${carterOne.variable} ${outfit.variable} antialiased font-outfit bg-nird-night text-white`}
       >
-        <Providers>{children}</Providers>
+        <Providers>
+          <Navbar />
+          {children}
+        </Providers>
       </body>
     </html>
   );
