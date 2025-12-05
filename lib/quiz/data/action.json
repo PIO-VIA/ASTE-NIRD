@@ -1,0 +1,418 @@
+{
+  "metadata": {
+    "id": "quiz-action",
+    "slug": "action",
+    "title": "Prêt à passer à l'action ?",
+    "description": "Teste ta capacité à mettre en œuvre concrètement la transition vers le libre dans ton établissement.",
+    "category": "action",
+    "difficulty": "avance",
+    "estimatedTime": 8,
+    "questionsCount": 10,
+    "icon": "🚀",
+    "color": "#06b6d4",
+    "gradient": "linear-gradient(135deg, #06b6d4 0%, #0891b2 100%)",
+    "keywords": ["action", "mise en œuvre", "stratégie", "transition", "pratique"]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Par quelle action commencer la transition vers le libre ?",
+      "subtitle": "Choisis l'approche la plus pragmatique",
+      "options": [
+        {
+          "id": "q1-a",
+          "text": "Remplacer tous les PC par des machines Linux d'un coup",
+          "points": 0
+        },
+        {
+          "id": "q1-b",
+          "text": "Former les équipes et tester sur quelques machines pilotes",
+          "points": 3
+        },
+        {
+          "id": "q1-c",
+          "text": "Attendre que tout le monde soit prêt",
+          "points": 0
+        },
+        {
+          "id": "q1-d",
+          "text": "Imposer le changement sans concertation",
+          "points": 0
+        }
+      ],
+      "explanation": "La transition doit être progressive, concertée et accompagnée. Commencer par des pilotes permet de tester, former, ajuster avant un déploiement plus large. C'est la méthode NIRD.",
+      "source": "Collectif NIRD",
+      "sourceUrl": "https://nird.forge.apps.education.fr/",
+      "difficulty": "avance",
+      "tags": ["stratégie", "déploiement", "changement"]
+    },
+    {
+      "id": "q2",
+      "question": "Un enseignant refuse de passer au libre. Tu...",
+      "options": [
+        {
+          "id": "q2-a",
+          "text": "L'obliges quand même",
+          "points": 0
+        },
+        {
+          "id": "q2-b",
+          "text": "Écoutes ses craintes, le formes et l'accompagnes",
+          "points": 3
+        },
+        {
+          "id": "q2-c",
+          "text": "Abandonnes l'idée de transition",
+          "points": 0
+        },
+        {
+          "id": "q2-d",
+          "text": "Lui montres que ses collègues y arrivent bien",
+          "points": 2
+        }
+      ],
+      "explanation": "La résistance au changement est normale. L'accompagnement, la formation et l'écoute sont essentiels. Montrer des exemples de réussite aide aussi. Ne jamais imposer brutalement.",
+      "source": "Gestion du changement",
+      "difficulty": "avance",
+      "tags": ["humain", "accompagnement", "résistance"]
+    },
+    {
+      "id": "q3",
+      "question": "Comment convaincre ta direction d'investir dans le libre ?",
+      "options": [
+        {
+          "id": "q3-a",
+          "text": "Présenter uniquement l'aspect idéologique",
+          "points": 1
+        },
+        {
+          "id": "q3-b",
+          "text": "Chiffrer les économies et montrer les bénéfices concrets",
+          "points": 3
+        },
+        {
+          "id": "q3-c",
+          "text": "Dire que c'est gratuit donc sans risque",
+          "points": 1
+        },
+        {
+          "id": "q3-d",
+          "text": "Attendre que la direction propose d'elle-même",
+          "points": 0
+        }
+      ],
+      "explanation": "Les arguments concrets (économies chiffrées, souveraineté, durabilité, autonomie) parlent aux décideurs. Un business case solide avec des exemples de réussite est crucial.",
+      "source": "Collectif NIRD",
+      "difficulty": "avance",
+      "tags": ["argumentation", "management", "stratégie"]
+    },
+    {
+      "id": "q4",
+      "question": "Un logiciel métier spécifique n'a pas d'équivalent libre. Tu...",
+      "options": [
+        {
+          "id": "q4-a",
+          "text": "Abandonnes toute la transition",
+          "points": 0
+        },
+        {
+          "id": "q4-b",
+          "text": "Gardes ce logiciel et libères tout le reste",
+          "points": 3
+        },
+        {
+          "id": "q4-c",
+          "text": "Cherches une solution imparfaite mais libre",
+          "points": 2
+        },
+        {
+          "id": "q4-d",
+          "text": "Développes toi-même l'alternative",
+          "points": 1
+        }
+      ],
+      "explanation": "Le pragmatisme est clé. On peut garder quelques outils propriétaires si nécessaire tout en libérant le maximum. La transition est progressive, pas dogmatique.",
+      "source": "Bonnes pratiques NIRD",
+      "difficulty": "avance",
+      "tags": ["pragmatisme", "hybride", "réalisme"]
+    },
+    {
+      "id": "q5",
+      "question": "Comment organiser la formation des équipes ?",
+      "options": [
+        {
+          "id": "q5-a",
+          "text": "Une formation unique de 2h pour tout le monde",
+          "points": 1
+        },
+        {
+          "id": "q5-b",
+          "text": "Rien, les gens se débrouilleront",
+          "points": 0
+        },
+        {
+          "id": "q5-c",
+          "text": "Formations progressives + documentation + référents",
+          "points": 3
+        },
+        {
+          "id": "q5-d",
+          "text": "Envoyer des tutoriels par mail",
+          "points": 1
+        }
+      ],
+      "explanation": "La formation doit être progressive, adaptée aux niveaux, avec des référents internes pour l'entraide. Documentation accessible et accompagnement continu sont essentiels.",
+      "source": "Collectif NIRD",
+      "difficulty": "avance",
+      "tags": ["formation", "accompagnement", "organisation"]
+    },
+    {
+      "id": "q6",
+      "question": "Un parent d'élève s'inquiète que son enfant n'apprenne pas Windows. Tu réponds...",
+      "options": [
+        {
+          "id": "q6-a",
+          "text": "Windows n'est pas important",
+          "points": 0
+        },
+        {
+          "id": "q6-b",
+          "text": "On forme aux compétences numériques, pas à une marque",
+          "points": 3
+        },
+        {
+          "id": "q6-c",
+          "text": "Linux est mieux que Windows",
+          "points": 1
+        },
+        {
+          "id": "q6-d",
+          "text": "Les entreprises utilisent de plus en plus Linux",
+          "points": 2
+        }
+      ],
+      "explanation": "L'école enseigne des compétences transférables, pas des produits commerciaux. Un élève qui maîtrise Linux saura utiliser Windows et inversement. On forme à l'adaptabilité.",
+      "source": "Pédagogie NIRD",
+      "difficulty": "avance",
+      "tags": ["communication", "parents", "pédagogie"]
+    },
+    {
+      "id": "q7",
+      "question": "Quel budget prévoir pour la transition ?",
+      "options": [
+        {
+          "id": "q7-a",
+          "text": "Aucun, c'est gratuit",
+          "points": 0
+        },
+        {
+          "id": "q7-b",
+          "text": "Formation, temps humain, accompagnement",
+          "points": 3
+        },
+        {
+          "id": "q7-c",
+          "text": "Nouvelles machines obligatoires",
+          "points": 0
+        },
+        {
+          "id": "q7-d",
+          "text": "Juste quelques licences Linux",
+          "points": 0
+        }
+      ],
+      "explanation": "Le libre est gratuit, mais la transition a un coût : formation, temps d'accompagnement, documentation. C'est un investissement qui se rentabilise très vite (plus de licences annuelles).",
+      "source": "Économie du libre",
+      "difficulty": "avance",
+      "tags": ["budget", "coûts", "investissement"]
+    },
+    {
+      "id": "q8",
+      "question": "Comment mesurer le succès de la transition ?",
+      "options": [
+        {
+          "id": "q8-a",
+          "text": "Nombre de machines sous Linux",
+          "points": 2
+        },
+        {
+          "id": "q8-b",
+          "text": "Économies réalisées + satisfaction des utilisateurs",
+          "points": 3
+        },
+        {
+          "id": "q8-c",
+          "text": "Réduction de l'empreinte carbone",
+          "points": 2
+        },
+        {
+          "id": "q8-d",
+          "text": "On ne mesure pas",
+          "points": 0
+        }
+      ],
+      "explanation": "Le succès est multidimensionnel : économies, satisfaction utilisateurs, autonomie gagnée, impact environnemental, compétences acquises. Il faut mesurer plusieurs indicateurs.",
+      "source": "KPI NIRD",
+      "difficulty": "avance",
+      "tags": ["évaluation", "indicateurs", "succès"]
+    },
+    {
+      "id": "q9",
+      "question": "La collectivité territoriale est réticente. Tu...",
+      "options": [
+        {
+          "id": "q9-a",
+          "text": "Fais quand même sans eux",
+          "points": 0
+        },
+        {
+          "id": "q9-b",
+          "text": "Présentes des exemples de territoires qui ont réussi",
+          "points": 3
+        },
+        {
+          "id": "q9-c",
+          "text": "Abandonnes",
+          "points": 0
+        },
+        {
+          "id": "q9-d",
+          "text": "Proposes un projet pilote limité",
+          "points": 2
+        }
+      ],
+      "explanation": "Les exemples concrets et les projets pilotes rassurent. Montrer que d'autres territoires ont réussi (avec données chiffrées) et proposer de commencer petit sont de bonnes stratégies.",
+      "source": "Dialogue territorial NIRD",
+      "difficulty": "avance",
+      "tags": ["collectivités", "politique", "persuasion"]
+    },
+    {
+      "id": "q10",
+      "question": "Après 1 an de transition, un bilan s'impose. Tu...",
+      "options": [
+        {
+          "id": "q10-a",
+          "text": "Continues sans évaluer",
+          "points": 0
+        },
+        {
+          "id": "q10-b",
+          "text": "Collectes retours, chiffres, ajustes la stratégie",
+          "points": 3
+        },
+        {
+          "id": "q10-c",
+          "text": "Accélères le déploiement quoi qu'il arrive",
+          "points": 0
+        },
+        {
+          "id": "q10-d",
+          "text": "Célèbres les succès seulement",
+          "points": 1
+        }
+      ],
+      "explanation": "L'évaluation régulière est cruciale : collecter les retours, mesurer les impacts, identifier les difficultés, ajuster. Célébrer les succès motive, mais l'amélioration continue est essentielle.",
+      "source": "Amélioration continue",
+      "difficulty": "avance",
+      "tags": ["évaluation", "bilan", "ajustement"]
+    }
+  ],
+  "profils": [
+    {
+      "id": "vercingetorix",
+      "name": "Observateur",
+      "minScore": 0,
+      "maxScore": 18,
+      "title": "Spectateur",
+      "subtitle": "👀 Tu observes mais n'agis pas encore",
+      "description": "Tu comprends les enjeux mais tu n'es pas encore passé à l'action. C'est normal, le changement fait peur. Mais chaque grand voyage commence par un premier pas. Il est temps de devenir acteur !",
+      "icon": "👀",
+      "color": "#ef4444",
+      "gradient": "linear-gradient(135deg, #ef4444 0%, #dc2626 100%)",
+      "recommendations": [
+        "🎯 Fixe-toi un petit objectif réalisable cette semaine",
+        "👥 Trouve un allié dans ton établissement",
+        "📞 Contacte le collectif NIRD pour être accompagné",
+        "📝 Rédige une liste d'actions concrètes et simples"
+      ],
+      "nextSteps": [
+        "Propose un atelier 'Découverte du libre' dans ton établissement",
+        "Teste Linux en dual-boot sur ta machine perso",
+        "Identifie 3 logiciels à remplacer facilement"
+      ],
+      "shareMessage": "Je me prépare à passer à l'action pour un numérique libre à l'école ! 👀 #NIRD #PreparationTransition"
+    },
+    {
+      "id": "guerrier",
+      "name": "Initiateur",
+      "minScore": 19,
+      "maxScore": 24,
+      "title": "Lanceur de Projet",
+      "subtitle": "🌱 Tu sèmes les graines du changement",
+      "description": "Bien ! Tu commences à agir concrètement. Tu as les bonnes intuitions sur comment mener la transition. Continue sur cette voie, affine ta stratégie, et tu verras ton village numérique se transformer.",
+      "icon": "🌱",
+      "color": "#f97316",
+      "gradient": "linear-gradient(135deg, #f97316 0%, #ea580c 100%)",
+      "recommendations": [
+        "📊 Structure ton projet de transition (planning, étapes...)",
+        "🤝 Crée une équipe projet avec collègues motivés",
+        "💼 Prépare un argumentaire chiffré pour la direction",
+        "📚 Documente tes premiers succès pour motiver"
+      ],
+      "nextSteps": [
+        "Lance un projet pilote sur 1-2 classes",
+        "Organise une formation pour les collègues",
+        "Rejoins les groupes de travail NIRD"
+      ],
+      "shareMessage": "Je lance la transition vers le libre dans mon établissement ! 🌱 Premières actions concrètes en cours. #NIRD #Initiateur"
+    },
+    {
+      "id": "asterix",
+      "name": "Chef de Projet",
+      "minScore": 25,
+      "maxScore": 28,
+      "title": "Stratège de la Transition",
+      "subtitle": "⚔️ Tu mènes le changement efficacement",
+      "description": "Excellent ! Tu sais comment conduire le changement. Tu es pragmatique, tu accompagnes les équipes, tu mesures l'impact. Tu es un vrai chef de projet de transformation numérique. Ton village résiste efficacement !",
+      "icon": "⚔️",
+      "color": "#fbbf24",
+      "gradient": "linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%)",
+      "recommendations": [
+        "🎓 Deviens formateur pour d'autres établissements",
+        "📖 Partage ton retour d'expérience (articles, conf...)",
+        "🌍 Étends la démarche au territoire/académie",
+        "🔬 Expérimente des solutions innovantes à partager"
+      ],
+      "nextSteps": [
+        "Mentorise un établissement débutant",
+        "Interviens dans des événements NIRD",
+        "Documente ta méthodologie sur la Forge"
+      ],
+      "shareMessage": "Je pilote la transition numérique vers le libre ! ⚔️ Stratégie, accompagnement, résultats concrets. #NIRD #ChefDeProjet"
+    },
+    {
+      "id": "panoramix",
+      "name": "Leader",
+      "minScore": 29,
+      "maxScore": 30,
+      "title": "Architecte de la Résistance",
+      "subtitle": "🧙‍♂️ Tu es un maître du changement",
+      "description": "Exceptionnel ! Tu maîtrises parfaitement la conduite du changement vers le libre. Tu es pragmatique, stratégique, humain. Tu transformes ton établissement et inspires les autres. Un vrai druide de la transition !",
+      "icon": "🧙‍♂️",
+      "color": "#10b981",
+      "gradient": "linear-gradient(135deg, #10b981 0%, #059669 100%)",
+      "recommendations": [
+        "🎤 Deviens ambassadeur national NIRD",
+        "📚 Écris des guides méthodologiques",
+        "🏆 Présente ton projet dans des conférences majeures",
+        "🌟 Participe aux décisions stratégiques du collectif"
+      ],
+      "nextSteps": [
+        "Forme des chefs de projet pour d'autres territoires",
+        "Contribue aux politiques publiques du numérique éducatif",
+        "Inspire et accompagne un réseau d'établissements"
+      ],
+      "shareMessage": "Architecte de la transition numérique libre ! 🧙‍♂️ Je transforme mon établissement et j'accompagne d'autres vers l'autonomie. #NIRD #Leader #Transformation"
+    }
+  ]
+}
