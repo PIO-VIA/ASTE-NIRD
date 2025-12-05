@@ -3,7 +3,7 @@
 import { useTranslation } from "react-i18next";
 import { Code, Recycle, Sparkles } from "lucide-react";
 import StoryStep from "./StoryStep";
-
+import Link from "next/link";
 /**
  * ScrollytellingStorySection - Style DaisyUI
  *
@@ -92,7 +92,7 @@ export default function ScrollytellingStorySection() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
             <button className="group relative px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full text-white font-semibold text-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/50">
-              <span className="relative z-10">En savoir plus</span>
+            <Link href={"/presentation"}>  <span className="relative z-10">En savoir plus</span></Link>
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </button>
 
