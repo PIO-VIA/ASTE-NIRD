@@ -116,12 +116,10 @@ export default function JeuxHomePage() {
               <Card
                 key={activity.id}
                 hover={activity.available}
-                className={`p - 8 text - center space - y - 4 bg - white / 5 border - white / 10 ${!activity.available ? 'opacity-60' : ''
-                  } `}
+                className={`p-8 text-center space-y-4 bg-white/5 border-white/10 ${!activity.available ? 'opacity-60' : ''}`}
               >
                 <div
-                  className={`transform transition - transform duration - 300 flex justify - center ${activity.available ? 'group-hover:scale-110' : ''
-                    } `}
+                  className={`transform transition-transform duration-300 flex justify-center ${activity.available ? 'group-hover:scale-110' : ''}`}
                 >
                   {activity.icon}
                 </div>
@@ -133,9 +131,7 @@ export default function JeuxHomePage() {
                   <p className="text-gray-400 font-outfit">{activity.description}</p>
                 </div>
 
-                <div
-                  className={`inline - block px - 4 py - 2 rounded - full text - sm font - medium bg - white / 10 text - nird - gold border border - nird - gold / 30`}
-                >
+                <div className="inline-block px-4 py-2 rounded-full text-sm font-medium bg-white/10 text-nird-gold border border-nird-gold/30">
                   {activity.count}
                 </div>
 
@@ -144,7 +140,7 @@ export default function JeuxHomePage() {
                   size="lg"
                   fullWidth
                   disabled={!activity.available}
-                  onClick={() => activity.available && router.push(`/ jeux / ${activity.id} `)}
+                  onClick={() => activity.available && router.push(`/jeux/${activity.id}`)}
                   className={activity.available ? "bg-nird-gold text-nird-night hover:bg-yellow-400" : ""}
                 >
                   {activity.startText}

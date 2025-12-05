@@ -1,6 +1,6 @@
 // app/jeux/quiz/[slug]/page.tsx
 import { notFound } from 'next/navigation';
-import { getQuizBySlug, getAllQuizMetadata } from '@/lib/quiz/data';
+import { allQuizzes } from '@/lib/quiz/data';
 import QuizContainer from '../components/QuizContainer';
 
 interface QuizPageProps {
@@ -11,10 +11,8 @@ interface QuizPageProps {
 
 // Génération statique des pages pour tous les quiz
 export async function generateStaticParams() {
-  const quizzes = getAllQuizMetadata();
-  
-  return quizzes.map((quiz) => ({
-    slug: quiz.slug,
+  return allQuizzes.map((quiz) => ({
+    slug: quiz.metadata.slug,
   }));
 }
 
@@ -22,15 +20,15 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: QuizPageProps) {
   // Déballer la Promise avec await
   const { slug } = await params;
-  const quiz = getQuizBySlug(slug);
-  
+  const quiz = allQuizzes.find((q) => q.metadata.slug === slug);
+
   if (!quiz) {
     return {
       title: 'Quiz non trouvé - NIRD',
       description: 'Ce quiz n\'existe pas ou a été supprimé.',
     };
   }
-  
+
   return {
     title: `${quiz.metadata.title} - Quiz NIRD`,
     description: quiz.metadata.description,
@@ -41,12 +39,12 @@ export async function generateMetadata({ params }: QuizPageProps) {
 export default async function QuizDynamicPage({ params }: QuizPageProps) {
   // Déballer la Promise avec await
   const { slug } = await params;
-  const quiz = getQuizBySlug(slug);
-  
+  const quiz = allQuizzes.find((q) => q.metadata.slug === slug);
+
   if (!quiz) {
     notFound();
   }
-  
+
   return (
     <div className="min-h-screen bg-gray-950 py-12 px-4">
       <QuizContainer quiz={quiz} />
