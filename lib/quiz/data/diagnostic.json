@@ -1,0 +1,578 @@
+{
+  "metadata": {
+    "id": "quiz-diagnostic",
+    "slug": "diagnostic",
+    "title": "Es-tu prisonnier de l'Empire numérique ?",
+    "description": "Évalue le niveau de dépendance numérique de ton établissement aux Big Tech et découvre ton profil de résistant.",
+    "category": "diagnostic",
+    "difficulty": "debutant",
+    "estimatedTime": 5,
+    "questionsCount": 15,
+    "icon": "🔍",
+    "color": "#3b82f6",
+    "gradient": "linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)",
+    "keywords": ["diagnostic", "dépendance", "big tech", "windows", "autonomie"]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Combien ton établissement dépense-t-il par an en licences logicielles ?",
+      "subtitle": "Windows, Office, antivirus, logiciels spécialisés...",
+      "options": [
+        {
+          "id": "q1-a",
+          "text": "Moins de 10 000€",
+          "points": 3
+        },
+        {
+          "id": "q1-b",
+          "text": "Entre 10 000€ et 50 000€",
+          "points": 2
+        },
+        {
+          "id": "q1-c",
+          "text": "Plus de 50 000€",
+          "points": 1
+        },
+        {
+          "id": "q1-d",
+          "text": "Je ne sais pas du tout",
+          "points": 0
+        }
+      ],
+      "explanation": "En moyenne, un lycée français dépense entre 30 000€ et 60 000€ par an en licences propriétaires. Avec le libre, ce coût pourrait être réduit à quasi zéro, libérant des budgets pour d'autres projets pédagogiques.",
+      "source": "Collectif NIRD",
+      "sourceUrl": "https://nird.forge.apps.education.fr/",
+      "difficulty": "debutant",
+      "tags": ["coûts", "licences", "budget"]
+    },
+    {
+      "id": "q2",
+      "question": "Que se passera-t-il quand Windows 10 ne sera plus supporté (octobre 2025) ?",
+      "options": [
+        {
+          "id": "q2-a",
+          "text": "On devra acheter de nouveaux PC pour Windows 11",
+          "points": 0
+        },
+        {
+          "id": "q2-b",
+          "text": "On peut installer Linux sur les anciens PC",
+          "points": 3
+        },
+        {
+          "id": "q2-c",
+          "text": "On continuera avec Windows 10 sans mise à jour",
+          "points": 1
+        },
+        {
+          "id": "q2-d",
+          "text": "Je ne sais pas",
+          "points": 0
+        }
+      ],
+      "explanation": "La fin du support de Windows 10 crée une obsolescence programmée massive. Linux permet de donner une seconde vie à des milliers d'ordinateurs parfaitement fonctionnels, évitant un gaspillage environnemental et financier énorme.",
+      "source": "France Info",
+      "sourceUrl": "https://www.youtube.com/watch?v=76T8oubek-c",
+      "difficulty": "debutant",
+      "tags": ["windows", "obsolescence", "linux"]
+    },
+    {
+      "id": "q3",
+      "question": "Où sont stockées les données de ton établissement ?",
+      "options": [
+        {
+          "id": "q3-a",
+          "text": "Sur des serveurs en France/UE",
+          "points": 3
+        },
+        {
+          "id": "q3-b",
+          "text": "Sur le cloud (Google, Microsoft, etc.)",
+          "points": 1
+        },
+        {
+          "id": "q3-c",
+          "text": "Un mix des deux",
+          "points": 2
+        },
+        {
+          "id": "q3-d",
+          "text": "Aucune idée",
+          "points": 0
+        }
+      ],
+      "explanation": "Le stockage des données scolaires hors UE pose des problèmes de souveraineté et de conformité RGPD. Les solutions NIRD privilégient des hébergements locaux ou dans l'UE, garantissant le contrôle des données éducatives.",
+      "source": "RGPD",
+      "difficulty": "debutant",
+      "tags": ["données", "rgpd", "souveraineté"]
+    },
+    {
+      "id": "q4",
+      "question": "Combien de PC fonctionnels risquent d'être jetés à cause de Windows 11 ?",
+      "options": [
+        {
+          "id": "q4-a",
+          "text": "Quelques centaines",
+          "points": 0
+        },
+        {
+          "id": "q4-b",
+          "text": "Quelques milliers",
+          "points": 1
+        },
+        {
+          "id": "q4-c",
+          "text": "Plusieurs dizaines de milliers",
+          "points": 2
+        },
+        {
+          "id": "q4-d",
+          "text": "Des centaines de milliers",
+          "points": 3
+        }
+      ],
+      "explanation": "En France, ce sont potentiellement des centaines de milliers d'ordinateurs de l'Éducation Nationale qui pourraient être jetés alors qu'ils fonctionnent parfaitement. Un désastre écologique et financier évitable avec Linux.",
+      "source": "Reportage France Info",
+      "sourceUrl": "https://www.youtube.com/watch?v=76T8oubek-c",
+      "difficulty": "debutant",
+      "tags": ["environnement", "obsolescence", "gaspillage"]
+    },
+    {
+      "id": "q5",
+      "question": "Ton établissement peut-il choisir librement ses logiciels ?",
+      "options": [
+        {
+          "id": "q5-a",
+          "text": "Oui, totalement autonome",
+          "points": 3
+        },
+        {
+          "id": "q5-b",
+          "text": "Partiellement, selon le budget",
+          "points": 2
+        },
+        {
+          "id": "q5-c",
+          "text": "Non, c'est imposé par la collectivité/académie",
+          "points": 1
+        },
+        {
+          "id": "q5-d",
+          "text": "Je ne sais pas",
+          "points": 0
+        }
+      ],
+      "explanation": "Beaucoup d'établissements sont dépendants des choix des collectivités ou académies, limitant leur autonomie. La démarche NIRD vise à redonner du pouvoir d'agir aux équipes éducatives locales.",
+      "source": "Collectif NIRD",
+      "sourceUrl": "https://nird.forge.apps.education.fr/",
+      "difficulty": "debutant",
+      "tags": ["autonomie", "gouvernance"]
+    },
+    {
+      "id": "q6",
+      "question": "Combien d'élèves ont déjà utilisé Linux dans ton établissement ?",
+      "options": [
+        {
+          "id": "q6-a",
+          "text": "La majorité",
+          "points": 3
+        },
+        {
+          "id": "q6-b",
+          "text": "Quelques classes",
+          "points": 2
+        },
+        {
+          "id": "q6-c",
+          "text": "Très peu ou aucun",
+          "points": 1
+        },
+        {
+          "id": "q6-d",
+          "text": "C'est quoi Linux ?",
+          "points": 0
+        }
+      ],
+      "explanation": "Linux est un système d'exploitation libre, gratuit et performant. Au lycée Carnot de Bruay, les élèves l'utilisent quotidiennement et affirment : 'Linux, c'est facile !' La peur du changement est souvent infondée.",
+      "source": "Lycée Carnot",
+      "sourceUrl": "https://tube-numerique-educatif.apps.education.fr/w/3LXem3XK4asbwZa5R1qGkW",
+      "difficulty": "debutant",
+      "tags": ["linux", "élèves", "formation"]
+    },
+    {
+      "id": "q7",
+      "question": "Quel pourcentage du budget numérique va aux abonnements annuels ?",
+      "options": [
+        {
+          "id": "q7-a",
+          "text": "Moins de 20%",
+          "points": 3
+        },
+        {
+          "id": "q7-b",
+          "text": "Entre 20% et 50%",
+          "points": 2
+        },
+        {
+          "id": "q7-c",
+          "text": "Plus de 50%",
+          "points": 1
+        },
+        {
+          "id": "q7-d",
+          "text": "Je ne sais pas",
+          "points": 0
+        }
+      ],
+      "explanation": "Les abonnements (Office 365, Adobe, antivirus, etc.) représentent une part croissante des budgets, créant une dépendance financière permanente. Le libre supprime ces coûts récurrents.",
+      "source": "Collectif NIRD",
+      "difficulty": "debutant",
+      "tags": ["abonnements", "coûts", "budget"]
+    },
+    {
+      "id": "q8",
+      "question": "Les enseignants de ton établissement connaissent-ils des alternatives libres ?",
+      "options": [
+        {
+          "id": "q8-a",
+          "text": "Oui, la plupart en utilisent",
+          "points": 3
+        },
+        {
+          "id": "q8-b",
+          "text": "Certains connaissent mais n'utilisent pas",
+          "points": 2
+        },
+        {
+          "id": "q8-c",
+          "text": "Très peu connaissent",
+          "points": 1
+        },
+        {
+          "id": "q8-d",
+          "text": "Personne ne connaît",
+          "points": 0
+        }
+      ],
+      "explanation": "La formation et la sensibilisation sont essentielles. LibreOffice, GIMP, Audacity, OBS Studio... de nombreuses alternatives gratuites et performantes existent. Le collectif NIRD propose formations et accompagnement.",
+      "source": "Collectif NIRD",
+      "sourceUrl": "https://nird.forge.apps.education.fr/",
+      "difficulty": "debutant",
+      "tags": ["formation", "alternatives", "enseignants"]
+    },
+    {
+      "id": "q9",
+      "question": "Ton établissement reconditionne-t-il du matériel informatique ?",
+      "options": [
+        {
+          "id": "q9-a",
+          "text": "Oui, systématiquement",
+          "points": 3
+        },
+        {
+          "id": "q9-b",
+          "text": "Parfois, selon les cas",
+          "points": 2
+        },
+        {
+          "id": "q9-c",
+          "text": "Rarement",
+          "points": 1
+        },
+        {
+          "id": "q9-d",
+          "text": "Jamais, on jette",
+          "points": 0
+        }
+      ],
+      "explanation": "Le reconditionnement et le réemploi sont au cœur de la démarche NIRD. Un PC sous Linux peut servir 10 ans au lieu de 5, réduisant drastiquement l'impact environnemental et les coûts.",
+      "source": "ADEME",
+      "difficulty": "debutant",
+      "tags": ["reconditionnement", "environnement", "durabilité"]
+    },
+    {
+      "id": "q10",
+      "question": "Les élèves sont-ils sensibilisés à la sobriété numérique ?",
+      "options": [
+        {
+          "id": "q10-a",
+          "text": "Oui, c'est intégré aux cours",
+          "points": 3
+        },
+        {
+          "id": "q10-b",
+          "text": "Quelques actions ponctuelles",
+          "points": 2
+        },
+        {
+          "id": "q10-c",
+          "text": "Très peu",
+          "points": 1
+        },
+        {
+          "id": "q10-d",
+          "text": "Pas du tout",
+          "points": 0
+        }
+      ],
+      "explanation": "La sobriété numérique est un enjeu majeur. Former les élèves aux impacts environnementaux du numérique et aux alternatives durables est essentiel pour former des citoyens responsables.",
+      "source": "Collectif NIRD",
+      "difficulty": "debutant",
+      "tags": ["sobriété", "éducation", "environnement"]
+    },
+    {
+      "id": "q11",
+      "question": "Combien de logiciels propriétaires utilisez-vous quotidiennement ?",
+      "options": [
+        {
+          "id": "q11-a",
+          "text": "Aucun, que du libre",
+          "points": 3
+        },
+        {
+          "id": "q11-b",
+          "text": "1 à 3",
+          "points": 2
+        },
+        {
+          "id": "q11-c",
+          "text": "4 à 10",
+          "points": 1
+        },
+        {
+          "id": "q11-d",
+          "text": "Plus de 10",
+          "points": 0
+        }
+      ],
+      "explanation": "Chaque logiciel propriétaire est un point de dépendance. Identifier les alternatives libres pour chacun est la première étape vers l'autonomie numérique.",
+      "source": "Collectif NIRD",
+      "difficulty": "debutant",
+      "tags": ["logiciels", "dépendance"]
+    },
+    {
+      "id": "q12",
+      "question": "Votre établissement participe-t-il à des communautés du libre éducatif ?",
+      "options": [
+        {
+          "id": "q12-a",
+          "text": "Oui, activement",
+          "points": 3
+        },
+        {
+          "id": "q12-b",
+          "text": "On observe de loin",
+          "points": 2
+        },
+        {
+          "id": "q12-c",
+          "text": "On ne connaît pas ces communautés",
+          "points": 1
+        },
+        {
+          "id": "q12-d",
+          "text": "Qu'est-ce que c'est ?",
+          "points": 0
+        }
+      ],
+      "explanation": "La Forge des Communs Numériques Éducatifs, le collectif NIRD et d'autres communautés partagent ressources, outils et bonnes pratiques. Rejoindre ces réseaux accélère la transition.",
+      "source": "La Forge",
+      "sourceUrl": "https://forge.apps.education.fr/",
+      "difficulty": "debutant",
+      "tags": ["communauté", "partage", "collaboration"]
+    },
+    {
+      "id": "q13",
+      "question": "Les données personnelles des élèves sont-elles protégées conformément au RGPD ?",
+      "options": [
+        {
+          "id": "q13-a",
+          "text": "Oui, totalement conformes",
+          "points": 3
+        },
+        {
+          "id": "q13-b",
+          "text": "Probablement, mais non vérifié",
+          "points": 2
+        },
+        {
+          "id": "q13-c",
+          "text": "Des doutes subsistent",
+          "points": 1
+        },
+        {
+          "id": "q13-d",
+          "text": "Je ne sais pas",
+          "points": 0
+        }
+      ],
+      "explanation": "Le RGPD impose des obligations strictes. Utiliser des services US (Google, Microsoft) pose des questions juridiques. Les solutions libres et européennes garantissent une meilleure conformité.",
+      "source": "CNIL",
+      "difficulty": "debutant",
+      "tags": ["rgpd", "données", "protection"]
+    },
+    {
+      "id": "q14",
+      "question": "Existe-t-il un plan de transition vers le libre dans votre établissement ?",
+      "options": [
+        {
+          "id": "q14-a",
+          "text": "Oui, en cours de déploiement",
+          "points": 3
+        },
+        {
+          "id": "q14-b",
+          "text": "En discussion",
+          "points": 2
+        },
+        {
+          "id": "q14-c",
+          "text": "Évoqué mais pas de plan concret",
+          "points": 1
+        },
+        {
+          "id": "q14-d",
+          "text": "Aucun plan",
+          "points": 0
+        }
+      ],
+      "explanation": "La transition vers le libre doit être progressive et planifiée. Le collectif NIRD propose des méthodologies éprouvées pour accompagner les établissements étape par étape.",
+      "source": "Collectif NIRD",
+      "sourceUrl": "https://nird.forge.apps.education.fr/",
+      "difficulty": "debutant",
+      "tags": ["transition", "planification", "stratégie"]
+    },
+    {
+      "id": "q15",
+      "question": "Les techniciens/administrateurs réseaux sont-ils formés à Linux ?",
+      "options": [
+        {
+          "id": "q15-a",
+          "text": "Oui, ils maîtrisent",
+          "points": 3
+        },
+        {
+          "id": "q15-b",
+          "text": "Partiellement formés",
+          "points": 2
+        },
+        {
+          "id": "q15-c",
+          "text": "Peu ou pas formés",
+          "points": 1
+        },
+        {
+          "id": "q15-d",
+          "text": "Pas de technicien dédié",
+          "points": 0
+        }
+      ],
+      "explanation": "La formation des équipes techniques est cruciale. Le collectif NIRD organise des formations et met en relation les établissements pour mutualiser les compétences.",
+      "source": "Collectif NIRD",
+      "difficulty": "debutant",
+      "tags": ["formation", "technique", "linux"]
+    }
+  ],
+  "profils": [
+    {
+      "id": "vercingetorix",
+      "name": "Vercingétorix",
+      "minScore": 0,
+      "maxScore": 30,
+      "title": "Prisonnier de l'Empire",
+      "subtitle": "⛓️ Totalement sous le joug des Big Tech",
+      "description": "Ton établissement est complètement dépendant de l'empire numérique. Les Big Tech contrôlent tes outils, tes données et ton budget. Mais tout espoir n'est pas perdu ! Même Vercingétorix a fini par comprendre qu'il fallait changer de stratégie. Il est temps de rejoindre le village des irréductibles !",
+      "icon": "⛓️",
+      "color": "#ef4444",
+      "gradient": "linear-gradient(135deg, #ef4444 0%, #dc2626 100%)",
+      "recommendations": [
+        "📺 Commence par regarder les vidéos NIRD pour comprendre les enjeux (5 min)",
+        "💰 Utilise le calculateur pour évaluer le coût de ta dépendance actuelle",
+        "🔍 Identifie 3 logiciels que tu pourrais remplacer facilement (ex: LibreOffice pour Office)",
+        "👥 Contacte le collectif NIRD pour être accompagné dans les premiers pas"
+      ],
+      "nextSteps": [
+        "Passe au quiz 'Connaissance' pour découvrir les alternatives",
+        "Regarde la vidéo 'Linux c'est facile !' du lycée Carnot",
+        "Visite le site NIRD et rejoins la communauté"
+      ],
+      "shareMessage": "Je suis encore prisonnier de l'Empire numérique 🏰 mais je vais résister ! Rejoins la démarche NIRD pour un numérique libre à l'école. #NIRD #LogicielLibre #EducationNumerique"
+    },
+    {
+      "id": "guerrier",
+      "name": "Guerrier",
+      "minScore": 31,
+      "maxScore": 60,
+      "title": "Guerrier en Formation",
+      "subtitle": "⚔️ Tu résistes, mais tu peux faire mieux",
+      "description": "Tu as pris conscience du problème et commencé à résister ! Quelques alternatives libres sont utilisées, mais l'Empire garde encore une forte emprise sur ton établissement. Continue ton entraînement, apprends les techniques de combat numérique, et tu deviendras bientôt un Astérix confirmé !",
+      "icon": "⚔️",
+      "color": "#f97316",
+      "gradient": "linear-gradient(135deg, #f97316 0%, #ea580c 100%)",
+      "recommendations": [
+        "📚 Approfondis tes connaissances avec le quiz 'Connaissance'",
+        "🎯 Fixe-toi un objectif : remplacer 5 logiciels propriétaires cette année",
+        "👨‍🏫 Forme 3 collègues aux alternatives libres que tu utilises déjà",
+        "📊 Présente un plan de transition progressif à ta direction",
+        "🔧 Participe à un atelier technique NIRD pour monter en compétence"
+      ],
+      "nextSteps": [
+        "Rejoins la communauté NIRD sur la Forge",
+        "Propose un atelier 'Découverte de Linux' dans ton établissement",
+        "Teste une distribution Linux éducative (Ubuntu, Debian Edu...)"
+      ],
+      "shareMessage": "En formation pour résister aux Big Tech ! ⚔️ Mon établissement progresse vers un numérique libre et responsable. #NIRD #LogicielLibre #TransitionNumerique"
+    },
+    {
+      "id": "asterix",
+      "name": "Astérix",
+      "minScore": 61,
+      "maxScore": 85,
+      "title": "Astérix Confirmé",
+      "subtitle": "🛡️ Belle résistance numérique !",
+      "description": "Bravo ! Ton établissement résiste efficacement à l'empire numérique. Tu utilises de nombreuses solutions libres, tu formes tes équipes et tu as une vraie stratégie d'autonomie. Il reste encore quelques bastions de l'Empire à conquérir, mais tu es sur la bonne voie. La potion magique du libre te donne la force de continuer !",
+      "icon": "🛡️",
+      "color": "#fbbf24",
+      "gradient": "linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%)",
+      "recommendations": [
+        "🌟 Deviens ambassadeur NIRD pour inspirer d'autres établissements",
+        "📝 Documente ton expérience sur la Forge pour la communauté",
+        "🤝 Aide un établissement voisin à démarrer sa transition",
+        "🎓 Forme des élèves pour qu'ils deviennent ambassadeurs du libre",
+        "🔬 Expérimente des solutions avancées (serveurs libres, cloud souverain...)"
+      ],
+      "nextSteps": [
+        "Complète ton village avec le quiz 'Action' pour aller plus loin",
+        "Organise une journée portes ouvertes 'Numérique Libre'",
+        "Contacte les collectivités pour étendre NIRD au territoire"
+      ],
+      "shareMessage": "Mon établissement résiste aux Big Tech ! 🛡️ Autonomie numérique, logiciels libres, sobriété : on y arrive ! #NIRD #IrréductiblesGaulois #EducationLibre"
+    },
+    {
+      "id": "panoramix",
+      "name": "Panoramix",
+      "minScore": 86,
+      "maxScore": 100,
+      "title": "Druide du Libre",
+      "subtitle": "🧙‍♂️ Maître de la potion numérique !",
+      "description": "Exceptionnel ! Tu es un véritable druide du numérique libre. Ton établissement est un modèle d'autonomie, de souveraineté et de durabilité. Tu formes, tu partages, tu innoves. Ton village inspire les autres et montre que la résistance est possible et efficace. Continue à préparer ta potion magique et à la partager avec tous les villages voisins !",
+      "icon": "🧙‍♂️",
+      "color": "#10b981",
+      "gradient": "linear-gradient(135deg, #10b981 0%, #059669 100%)",
+      "recommendations": [
+        "🎤 Interviens dans des conférences et événements pour témoigner",
+        "📖 Rédige des guides et tutoriels pour la communauté",
+        "🌍 Connecte-toi avec d'autres druides du libre (Framasoft, April, etc.)",
+        "🏆 Candidate aux prix/reconnaissances du numérique libre éducatif",
+        "🔮 Innove et expérimente de nouvelles solutions à partager"
+      ],
+      "nextSteps": [
+        "Deviens référent NIRD pour ta région",
+        "Propose des formations pour d'autres établissements",
+        "Participe aux groupes de travail nationaux sur le libre éducatif"
+      ],
+      "shareMessage": "Druide du numérique libre ! 🧙‍♂️ Notre établissement prouve qu'un autre numérique éducatif est possible : libre, souverain, durable. #NIRD #DruideDuLibre #Champion"
+    }
+  ]
+}

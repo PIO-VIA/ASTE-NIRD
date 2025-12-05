@@ -4,7 +4,8 @@
     "navbar": {
         "tagline": "Digital Resistance",
         "home": "Home",
-        "story": "Story"
+        "story": "Story",
+        "quiz": "Game"
     },
     "hero": {
         "title": "Aste-NIRD",
@@ -26,5 +27,82 @@
     },
     "footer": {
         "copyright": "© 2025 Aste-NIRD. All rights reserved."
+    },
+    "games": {
+        "title": "NIRD Games Village",
+        "subtitle": "Welcome to the village of digital irreducibles!",
+        "description": "Join the resistance against the Big Tech Empire through exciting quizzes, challenges, and enigmas.",
+        "mission": {
+            "title": "Your mission, should you choose to accept it",
+            "description": "Learn to master free digital tools, discover how your institution can gain autonomy, and become an actor of the responsible digital transition. Each activity will bring you closer to the status of",
+            "druid": "Druid of the Free"
+        },
+        "activities": {
+            "title": "Choose your activity",
+            "quiz": {
+                "title": "Quizzes",
+                "description": "Test your knowledge on free digital tools and discover your resistance profile",
+                "count": "3 quizzes",
+                "start": "Start"
+            },
+            "challenges": {
+                "title": "Challenges",
+                "description": "Take on progressive challenges to become an expert in digital transition",
+                "count": "Soon",
+                "start": "Coming soon"
+            },
+            "enigmas": {
+                "title": "Enigmas",
+                "description": "Solve enigmas and discover hidden secrets in the digital village",
+                "count": "Soon",
+                "start": "Coming soon"
+            }
+        },
+        "benefits": {
+            "fun": {
+                "title": "Learn while having fun",
+                "description": "Discover the issues of free digital tools through playful and engaging activities. No lectures, only practice!"
+            },
+            "progress": {
+                "title": "Track your progress",
+                "description": "Earn points, unlock badges, and improve your skills. Your progress is saved automatically."
+            },
+            "share": {
+                "title": "Share your results",
+                "description": "Share your results on social media and inspire others to join the digital resistance!"
+            },
+            "tips": {
+                "title": "Get advice",
+                "description": "Get personalized recommendations based on your profile to progress towards digital autonomy."
+            }
+        },
+        "cta": {
+            "title": "Ready to join the resistance?",
+            "description": "Start with the quizzes to discover your digital resistance profile!",
+            "button": "Start quizzes"
+        }
+    },
+    "quiz": {
+        "title": "NIRD Quiz Village",
+        "subtitle": "Test your knowledge and discover your digital resistance profile!",
+        "stats": {
+            "title": "Your statistics",
+            "completed": "Quizzes completed",
+            "points": "Total points",
+            "minutes": "Minutes played",
+            "badges": "Badges earned"
+        },
+        "howItWorks": {
+            "title": "How it works?",
+            "description": "Each quiz evaluates a different aspect of your relationship with free digital tools. Answer the questions, discover your profile (Vercingetorix, Warrior, Asterix, or Getafix) and receive personalized recommendations to progress towards digital autonomy!"
+        },
+        "available": "Available quizzes",
+        "cta": {
+            "title": "Ready to join the resistance?",
+            "description": "Start with the diagnostic quiz to assess your level of dependence on Big Tech, then explore other quizzes to deepen your knowledge!",
+            "time": "15-20 minutes per quiz",
+            "progress": "Progress saved",
+            "share": "Shareable results"
+        }
     }
 }
