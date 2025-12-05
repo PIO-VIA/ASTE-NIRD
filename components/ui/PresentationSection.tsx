@@ -48,32 +48,32 @@ export default function PresentationSection() {
             [-300, 0]
         );
 
-        // Opacité: fade in progressif
+        // Opacité: reste visible tout le temps
         const opacity = useTransform(
             scrollYProgress,
             [start, end],
-            [0, 1]
+            [1, 1] // Toujours visible
         );
 
         // Scale: commence petite, grandit vers la taille normale
         const scale = useTransform(
             scrollYProgress,
             [start, end],
-            [0.7, 1]
+            [0.85, 1]
         );
 
         // Rotation: commence inclinée, se redresse
         const rotate = useTransform(
             scrollYProgress,
             [start, end],
-            [-15, 0]
+            [-12, 0]
         );
 
-        // Position Y: légère variation pour l'effet de deck
+        // Position Y: légère variation pour l'effet de deck empilé
         const y = useTransform(
             scrollYProgress,
             [start, end],
-            [index * 5, 0] // Les cartes sont légèrement décalées verticalement au début
+            [index * 15, 0] // Les cartes sont empilées verticalement au début
         );
 
         return { x, y, opacity, scale, rotate };

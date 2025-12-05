@@ -1,6 +1,11 @@
 {
     "welcome": "Welcome to Aste-NIRD",
     "description": "The digital village that still resists Big Tech.",
+    "navbar": {
+        "tagline": "Digital Resistance",
+        "home": "Home",
+        "story": "Story"
+    },
     "hero": {
         "title": "Aste-NIRD",
         "subtitle": "The digital village that still resists Big Tech.",
