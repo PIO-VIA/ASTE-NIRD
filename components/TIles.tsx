@@ -13,9 +13,10 @@ const Tiles: React.FC<TilesProps> = ({ icon, className = '', label }) => {
   return (
     <div
       className="relative w-30 h-30 rounded-md"
-      style={{ boxShadow: '10px 10px 0px #2658a88b' }}
+      style={{ boxShadow: '15px 15px 20px white' }}
+      
     >
-      {label && <div className="floating-text">{label}</div>}
+      {label && <div className="floating-text  ">{label}</div>}
 
       <button
         className={`
