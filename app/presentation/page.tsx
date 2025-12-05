@@ -26,7 +26,8 @@ const Page: React.FC = () => {
     paragraphs: [
       { text: `La démarche <strong class="text-nird-gold font-bold">NIRD</strong> est un mouvement éducatif qui vise à aider les établissements scolaires à adopter un numérique <em class="text-nird-gold italic">plus libre</em>, <em class="text-nird-gold italic">plus éthique</em> et <em class="text-nird-gold italic">plus durable</em>.` },
       { text: `Elle rassemble <strong class="text-nird-gold font-bold">enseignants</strong>, <strong class="text-nird-gold font-bold">élèves</strong>, <strong class="text-nird-gold font-bold">techniciens</strong>, <strong class="text-nird-gold font-bold">collectivités</strong> et <strong class="text-nird-gold font-bold">associations</strong> pour construire un numérique réellement au service de l’éducation.` }
-    ]
+    ],
+    containerClassName: "w-full max-w-4xl px-4 sm:px-6 lg:px-8 mx-auto my-6"
   },
   {
     title: "2. Why NIRD? — Why does it matter?",
@@ -37,7 +38,8 @@ const Page: React.FC = () => {
       • les données scolaires sont stockées hors d’Europe,<br/>
       • les écosystèmes fermés empêchent les écoles d’adapter ou de réparer leurs outils.` },
       { text: `Face à ces contraintes, <strong class="text-nird-gold font-bold">NIRD propose un autre chemin</strong> : reprendre le pouvoir sur l’environnement numérique, réduire l’impact écologique et développer des pratiques plus <strong class="text-nird-gold font-bold">autonomes</strong> et <strong class="text-nird-gold font-bold">durables</strong>.` }
-    ]
+    ],
+    containerClassName: "w-full max-w-4xl px-4 sm:px-6 lg:px-8 mx-auto my-6"
   },
   {
     title: "3. The Three Pillars of NIRD",
@@ -45,7 +47,8 @@ const Page: React.FC = () => {
       { text: `<strong class="text-nird-gold font-bold">Inclusion :</strong> réduire les inégalités numériques, garantir l’accès pour tous, utiliser des outils accessibles et gratuits.` },
       { text: `<strong class="text-nird-gold font-bold">Responsibility :</strong> limiter l’empreinte carbone, consommer moins de ressources numériques, favoriser des outils respectueux des données.` },
       { text: `<strong class="text-nird-gold font-bold">Durability :</strong> prolonger la durée de vie du matériel, lutter contre l’obsolescence programmée, encourager le libre et la réparation.` }
-    ]
+    ],
+    containerClassName: "w-full max-w-4xl px-4 sm:px-6 lg:px-8 mx-auto my-6"
   },
   {
     title: "4. NIRD’s Main Actions (the 6 activities)",
@@ -56,16 +59,18 @@ const Page: React.FC = () => {
       { text: `<strong class="text-nird-gold font-bold">4. Mutualiser les outils libres</strong> — Partager des ressources, guides et logiciels via <em class="text-nird-gold italic">La Forge des communs numériques éducatifs</em>.` },
       { text: `<strong class="text-nird-gold font-bold">5. Accompagner la transition écoresponsable</strong> — Conseils techniques, ateliers, guides pratiques, aide aux collectivités.` },
       { text: `<strong class="text-nird-gold font-bold">6. Co-construire des solutions locales</strong> — Créer des outils adaptés : applications, ressources pédagogiques, infrastructures locales.` }
-    ]
+    ],
+    containerClassName: "w-full max-w-4xl px-4 sm:px-6 lg:px-8 mx-auto my-6"
   },
   {
     title: "5. Interactive Section — Scenario",
     paragraphs: [
       { text: `Mini-simulation <strong class="text-nird-gold font-bold">“Choisissez votre école numérique”</strong> — Les visiteurs doivent choisir :` },
-      { text: `<ul class="list-disc ml-6"><li>Système : <strong class="text-nird-gold font-bold">Linux</strong> ou <strong class="text-nird-gold font-bold">Windows</strong></li><li>Réparer ou acheter un nouvel ordinateur ?</li><li>Cloud européen ou américain ?</li><li>Logiciel libre ou propriétaire ?</li></ul>` },
+      { text: `<ul class="list-disc ml-6 sm:ml-8 md:ml-12"><li>Système : <strong class="text-nird-gold font-bold">Linux</strong> ou <strong class="text-nird-gold font-bold">Windows</strong></li><li>Réparer ou acheter un nouvel ordinateur ?</li><li>Cloud européen ou américain ?</li><li>Logiciel libre ou propriétaire ?</li></ul>` },
       { text: `Chaque choix affiche un impact : <span class="text-green-400">🟢 +2 Durabilité</span>, <span class="text-yellow-300">🟡 +1 Responsabilité</span>, <span class="text-red-400">🔴 –2 Inclusion</span>` },
       { text: `<strong class="text-nird-gold font-bold">Score final :</strong> Votre école est <span class="text-nird-gold font-bold">73% NIRD-compatible</span> !` }
-    ]
+    ],
+    containerClassName: "w-full max-w-4xl px-4 sm:px-6 lg:px-8 mx-auto my-6"
   },
   {
     title: "6. Tools & Resources",
@@ -73,21 +78,24 @@ const Page: React.FC = () => {
       { text: `<strong class="text-nird-gold font-bold">Outils libres recommandés :</strong><br/>Linux Mint / Ubuntu Éducation, LibreOffice, Moodle, Etherpad / Cryptpad, Firefox ESR.` },
       { text: `<strong class="text-nird-gold font-bold">Guides utiles :</strong> prolonger la durée de vie d’un PC, installer Linux, adopter des pratiques de sobriété numérique.` },
       { text: `<strong class="text-nird-gold font-bold">Ressources NIRD :</strong> Forge des communs, fiches pédagogiques, tutoriels de reconditionnement.` }
-    ]
+    ],
+    containerClassName: "w-full max-w-4xl px-4 sm:px-6 lg:px-8 mx-auto my-6"
   },
   {
     title: "7. Call to Action — Join the Movement",
     paragraphs: [
       { text: `Rejoignez la communauté <strong class="text-nird-gold font-bold">NIRD</strong> et contribuez à construire un numérique éthique, durable et accessible.` },
-      { text: `<div class="flex gap-3 mt-4">
-          <button class="bg-green-600 px-4 py-2 rounded-md text-white">Découvrir les outils libres</button>
-          <button class="bg-blue-600 px-4 py-2 rounded-md text-white">Tester la simulation</button>
-          <button class="bg-orange-600 px-4 py-2 rounded-md text-white">Participer</button>
-          <button class="bg-purple-600 px-4 py-2 rounded-md text-white">Télécharger les guides</button>
+      { text: `<div class="flex flex-wrap gap-3 mt-4">
+          <button class="bg-green-600 px-4 py-2 rounded-md text-white flex-1 sm:flex-none">Découvrir les outils libres</button>
+          <button class="bg-blue-600 px-4 py-2 rounded-md text-white flex-1 sm:flex-none">Tester la simulation</button>
+          <button class="bg-orange-600 px-4 py-2 rounded-md text-white flex-1 sm:flex-none">Participer</button>
+          <button class="bg-purple-600 px-4 py-2 rounded-md text-white flex-1 sm:flex-none">Télécharger les guides</button>
         </div>` }
-    ]
+    ],
+    containerClassName: "w-full max-w-4xl px-4 sm:px-6 lg:px-8 mx-auto my-6"
   }
 ];
+
 
 
   const visible: boolean[] = [true,false,false,true,false,false,true,true,true,false,false,true,false,false,true]
@@ -118,16 +126,16 @@ const Page: React.FC = () => {
   <div className="flex flex-col">
     <Navbar />
 
-    <div className="flex h-full p-10 gap-10 mt-10 bg-nird-night">
+    <div className="flex flex-col h-full p-10 gap-10 mt-10 bg-nird-night sm:flex-row">
 
       {/* Left panel */}
       <div
         className={
           sections[clickedIndex].containerClassName ||
-          "flex justify-center w-200 p-6 bg-nird-night text-white rounded-md overflow-y-auto"
+          "flex justify-center w-200 p-6 bg-nird-night text-white rounded-md overflow-y-auto sm:w-1/2 h-screen"
         }
       >
-        <div className="flex gap-5 flex-col items-center">
+        <div className="flex gap-5 flex-col items-center sm:items-center sm:justify-center">
           <h2
             className={
               sections[clickedIndex].titleClassName ||
