@@ -4,9 +4,9 @@ import { getQuizBySlug, getAllQuizMetadata } from '@/lib/quiz/data';
 import QuizContainer from '../components/QuizContainer';
 
 interface QuizPageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
 // Génération statique des pages pour tous les quiz
@@ -20,22 +20,28 @@ export async function generateStaticParams() {
 
 // Métadonnées dynamiques
 export async function generateMetadata({ params }: QuizPageProps) {
-  const quiz = getQuizBySlug(params.slug);
+  // Déballer la Promise avec await
+  const { slug } = await params;
+  const quiz = getQuizBySlug(slug);
   
   if (!quiz) {
     return {
-      title: 'Quiz non trouvé',
+      title: 'Quiz non trouvé - NIRD',
+      description: 'Ce quiz n\'existe pas ou a été supprimé.',
     };
   }
   
   return {
     title: `${quiz.metadata.title} - Quiz NIRD`,
     description: quiz.metadata.description,
+    // keywords: quiz.metadata.tags?.join(', '),
   };
 }
 
-export default function QuizDynamicPage({ params }: QuizPageProps) {
-  const quiz = getQuizBySlug(params.slug);
+export default async function QuizDynamicPage({ params }: QuizPageProps) {
+  // Déballer la Promise avec await
+  const { slug } = await params;
+  const quiz = getQuizBySlug(slug);
   
   if (!quiz) {
     notFound();
