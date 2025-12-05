@@ -119,14 +119,16 @@ export default function Navbar() {
                         {/* Right side - Language + Menu */}
                         <div className="flex items-center gap-3 md:gap-4">
                             {/* Language Switcher - Desktop */}
-                            <motion.div
-                                className="hidden md:flex items-center gap-2 px-3 py-2 rounded-lg bg-white/5 border border-white/10"
-                                whileHover={{ scale: 1.05 }}
-                                transition={{ duration: 0.2 }}
-                            >
-                                <Globe className="w-4 h-4 text-nird-gold" />
+                        <motion.div
+                            className="hidden md:flex items-center gap-2 px-3 py-2 rounded-lg bg-white/10 border-2 border-white/30 hover:border-white/50 transition-colors"
+                            whileHover={{ scale: 1.05 }}
+                            transition={{ duration: 0.2 }}
+                        >
+                            <Globe className="w-4 h-4 text-nird-gold" />
+                            <div className="language-switcher-wrapper">
                                 <LanguageSwitcher />
-                            </motion.div>
+                            </div>
+                        </motion.div>
 
                             {/* Mobile Menu Button */}
                             <motion.button
@@ -217,24 +219,26 @@ export default function Navbar() {
                                 </div>
 
                                 {/* Mobile Language Switcher */}
-                                <motion.div
-                                    className="mt-8 p-5 rounded-2xl bg-white/10 border border-white/20"
-                                    initial={{ opacity: 0, y: 20 }}
-                                    animate={{ opacity: 1, y: 0 }}
-                                    transition={{ delay: 0.4 }}
-                                >
-                                    <div className="flex items-center justify-between">
-                                        <div className="flex items-center gap-3">
-                                            <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-gradient-to-br from-nird-gold/20 to-nird-red/20 border border-nird-gold/30">
-                                                <Globe className="w-5 h-5 text-nird-gold" />
-                                            </div>
-                                            <span className="text-white font-outfit font-semibold">
-                                                {t('Language') || 'Language'}
-                                            </span>
-                                        </div>
-                                        <LanguageSwitcher />
-                                    </div>
-                                </motion.div>
+<motion.div
+    className="mt-8 p-5 rounded-2xl bg-white/10 border-2 border-white/30"
+    initial={{ opacity: 0, y: 20 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ delay: 0.4 }}
+>
+    <div className="flex items-center justify-between">
+        <div className="flex items-center gap-3">
+            <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-gradient-to-br from-nird-gold/20 to-nird-red/20 border-2 border-nird-gold/50">
+                <Globe className="w-5 h-5 text-nird-gold" />
+            </div>
+            <span className="text-white font-outfit font-semibold text-lg">
+                {t('Language') || 'Language'}
+            </span>
+        </div>
+        <div className="language-switcher-wrapper">
+            <LanguageSwitcher />
+        </div>
+    </div>
+</motion.div>
 
                                 {/* Mobile Footer Info */}
                                 <motion.div
