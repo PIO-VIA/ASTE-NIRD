@@ -1,4 +1,3 @@
-// app/jeux/quiz/components/Question.tsx
 'use client';
 
 import { QuizQuestion, QuizOption } from '@/lib/quiz/types';

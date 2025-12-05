@@ -1,4 +1,3 @@
-// app/jeux/quiz/components/ProfilBadge.tsx
 'use client';
 
 import { QuizProfil } from '@/lib/quiz/types';

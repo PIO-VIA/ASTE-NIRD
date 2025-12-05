@@ -1,4 +1,3 @@
-// app/jeux/quiz/components/ResultCard.tsx
 'use client';
 
 import { QuizResult } from '@/lib/quiz/types';

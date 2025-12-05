@@ -1,4 +1,3 @@
-// app/jeux/quiz/components/ProgressBar.tsx
 'use client';
 
 interface ProgressBarProps {

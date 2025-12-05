@@ -1,4 +1,3 @@
-// components/ui/Progress.tsx
 'use client';
 
 interface ProgressProps {

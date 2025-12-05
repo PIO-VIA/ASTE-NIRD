@@ -1,4 +1,3 @@
-// components/ui/Card.tsx
 'use client';
 
 import { ReactNode } from 'react';

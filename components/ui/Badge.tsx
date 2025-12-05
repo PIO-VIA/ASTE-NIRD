@@ -1,4 +1,3 @@
-// components/ui/Badge.tsx
 'use client';
 
 import { ReactNode } from 'react';

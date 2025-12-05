@@ -4,7 +4,8 @@
     "navbar": {
         "tagline": "Résistance Numérique",
         "home": "Accueil",
-        "story": "Histoire"
+        "story": "Histoire",
+        "quiz": "Jeux"
     },
     "hero": {
         "title": "Aste-NIRD",
@@ -26,5 +27,82 @@
     },
     "footer": {
         "copyright": "© 2025 Aste-NIRD. Tous droits réservés."
+    },
+    "games": {
+        "title": "Village des Jeux NIRD",
+        "subtitle": "Bienvenue dans le village des irréductibles numériques !",
+        "description": "Rejoins la résistance contre l'Empire des Big Tech à travers des quiz, défis et énigmes passionnants.",
+        "mission": {
+            "title": "Ta mission, si tu l'acceptes",
+            "description": "Apprends à maîtriser le numérique libre, découvre comment ton établissement peut gagner en autonomie, et deviens un acteur de la transition numérique responsable. Chaque activité te rapprochera du statut de",
+            "druid": "Druide du Libre"
+        },
+        "activities": {
+            "title": "Choisis ton activité",
+            "quiz": {
+                "title": "Quiz",
+                "description": "Teste tes connaissances sur le numérique libre et découvre ton profil de résistant",
+                "count": "3 quiz",
+                "start": "Commencer"
+            },
+            "challenges": {
+                "title": "Défis",
+                "description": "Relève des défis progressifs pour devenir un expert de la transition numérique",
+                "count": "Bientôt",
+                "start": "Bientôt disponible"
+            },
+            "enigmas": {
+                "title": "Énigmes",
+                "description": "Résous des énigmes et découvre des secrets cachés dans le village numérique",
+                "count": "Bientôt",
+                "start": "Bientôt disponible"
+            }
+        },
+        "benefits": {
+            "fun": {
+                "title": "Apprends en t'amusant",
+                "description": "Découvre les enjeux du numérique libre à travers des activités ludiques et engageantes. Pas de cours magistral, que de la pratique !"
+            },
+            "progress": {
+                "title": "Suis ta progression",
+                "description": "Gagne des points, débloque des badges, et monte en compétence. Ta progression est sauvegardée automatiquement."
+            },
+            "share": {
+                "title": "Partage tes résultats",
+                "description": "Partage tes résultats sur les réseaux sociaux et inspire d'autres à rejoindre la résistance numérique !"
+            },
+            "tips": {
+                "title": "Reçois des conseils",
+                "description": "Obtiens des recommandations personnalisées selon ton profil pour progresser vers l'autonomie numérique."
+            }
+        },
+        "cta": {
+            "title": "Prêt à rejoindre la résistance ?",
+            "description": "Commence par les quiz pour découvrir ton profil de résistant numérique !",
+            "button": "Commencer les quiz"
+        }
+    },
+    "quiz": {
+        "title": "Village des Quiz NIRD",
+        "subtitle": "Teste tes connaissances et découvre ton profil de résistant numérique !",
+        "stats": {
+            "title": "Tes statistiques",
+            "completed": "Quiz terminés",
+            "points": "Points totaux",
+            "minutes": "Minutes jouées",
+            "badges": "Badges obtenus"
+        },
+        "howItWorks": {
+            "title": "Comment ça marche ?",
+            "description": "Chaque quiz évalue un aspect différent de ton rapport au numérique libre. Réponds aux questions, découvre ton profil (Vercingétorix, Guerrier, Astérix ou Panoramix) et reçois des recommandations personnalisées pour progresser vers l'autonomie numérique !"
+        },
+        "available": "Quiz disponibles",
+        "cta": {
+            "title": "Prêt à rejoindre la résistance ?",
+            "description": "Commence par le quiz diagnostic pour évaluer ton niveau de dépendance aux Big Tech, puis explore les autres quiz pour approfondir tes connaissances !",
+            "time": "15-20 minutes par quiz",
+            "progress": "Progression sauvegardée",
+            "share": "Résultats partageables"
+        }
     }
 }

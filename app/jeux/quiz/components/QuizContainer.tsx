@@ -1,4 +1,3 @@
-// app/jeux/quiz/components/QuizContainer.tsx
 'use client';
 
 import { useState, useEffect } from 'react';

@@ -1,4 +1,3 @@
-// app/jeux/quiz/components/ShareButton.tsx
 'use client';
 
 import { QuizResult } from '@/lib/quiz/types';
