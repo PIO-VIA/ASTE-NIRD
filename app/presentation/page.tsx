@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 import Tiles from '../../components/TIles'
 import Navbar from '@/components/ui/Navbar'
 import { Home, Book, Cpu, Star, Flag, Settings, Monitor } from 'lucide-react'
-import { DistanceMatrixService } from '@react-google-maps/api'
 
 interface Paragraph {
   text: string

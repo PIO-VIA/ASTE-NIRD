@@ -1,6 +1,6 @@
 // app/jeux/quiz/[slug]/page.tsx
 import { notFound } from 'next/navigation';
-import { allQuizzes } from '@/lib/quiz/data';
+import { allQuizzes } from '../../../../lib/quiz/data/index';
 import QuizContainer from '../components/QuizContainer';
 
 interface QuizPageProps {
