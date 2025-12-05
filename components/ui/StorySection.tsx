@@ -55,11 +55,11 @@ export default function StorySection() {
                         <div className="flex-1 text-center md:text-left">
                             <div className="bg-white/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10 relative">
                                 {/* Decorative quote mark */}
-                                <span className="absolute -top-6 -left-4 text-6xl text-nird-gold font-carter opacity-50">"</span>
+                                <span className="absolute -top-6 -left-4 text-6xl text-nird-gold font-carter opacity-50"></span>
                                 <p className="text-2xl md:text-3xl font-carter text-gray-100 leading-relaxed">
                                     {story.text}
                                 </p>
-                                <span className="absolute -bottom-12 -right-4 text-6xl text-nird-gold font-carter opacity-50 rotate-180">"</span>
+                                <span className="absolute -bottom-12 -right-4 text-6xl text-nird-gold font-carter opacity-50 rotate-180"></span>
                             </div>
                         </div>
                     </div>
