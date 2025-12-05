@@ -135,7 +135,7 @@ export default function QuizContainer({ quiz }: QuizContainerProps) {
   const completeQuiz = () => {
     const totalTime = Math.floor((Date.now() - startTime) / 1000);
     const percentage = Math.round((totalScore / maxScore) * 100);
-    const profil = calculateProfil(totalScore, maxScore,"mot");
+    const profil = calculateProfil(totalScore, maxScore, quiz.profils);
 
     const quizResult: QuizResult = {
       quizId: quiz.metadata.id,

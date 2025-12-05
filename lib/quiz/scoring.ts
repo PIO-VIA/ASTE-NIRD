@@ -91,15 +91,15 @@ export function generateQuizStatistics(
 export function calculateProfil(
   totalScore: number,
   maxScore: number,
-  profils: string
-): string {
+  profils: import('./types').QuizProfil[]
+): import('./types').QuizProfil {
   const scorePercentage = (totalScore / maxScore) * 100;
 
-  if (scorePercentage >= 85) {
-    return profils.split(',')[0]; // Profil A
-  } else if (scorePercentage >= 60) {
-    return profils.split(',')[1]; // Profil B
-  } else {
-    return profils.split(',')[2]; // Profil C
-  }
+  // Trouver le profil correspondant au score
+  const matchingProfil = profils.find(
+    (profil) => scorePercentage >= profil.minScore && scorePercentage <= profil.maxScore
+  );
+
+  // Fallback au premier profil si aucun match trouvé
+  return matchingProfil || profils[0];
 }
