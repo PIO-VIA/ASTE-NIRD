@@ -1,7 +1,6 @@
 "use client";
 
 import { useTranslation } from 'react-i18next';
-import LanguageSwitcher from '../components/LanguageSwitcher';
 import Navbar from '../components/ui/Navbar';
 import HeroSection from '../components/ui/HeroSection';
 import PresentationSection from '../components/ui/PresentationSection';
