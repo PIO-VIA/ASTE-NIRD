@@ -104,5 +104,58 @@
             "progress": "Progression sauvegardée",
             "share": "Résultats partageables"
         }
+    },
+    "presentation_page": {
+        "section1": {
+            "title": "1. Introduction — Qu'est-ce que NIRD ?",
+            "p1": "La démarche <strong class=\"text-nird-gold font-bold\">NIRD</strong> est un mouvement éducatif qui vise à aider les établissements scolaires à adopter un numérique <em class=\"text-nird-gold italic\">plus libre</em>, <em class=\"text-nird-gold italic\">plus éthique</em> et <em class=\"text-nird-gold italic\">plus durable</em>.",
+            "p2": "Elle rassemble <strong class=\"text-nird-gold font-bold\">enseignants</strong>, <strong class=\"text-nird-gold font-bold\">élèves</strong>, <strong class=\"text-nird-gold font-bold\">techniciens</strong>, <strong class=\"text-nird-gold font-bold\">collectivités</strong> et <strong class=\"text-nird-gold font-bold\">associations</strong> pour construire un numérique réellement au service de l’éducation."
+        },
+        "section2": {
+            "title": "2. Pourquoi NIRD ? — Pourquoi est-ce important ?",
+            "p1": "Aujourd’hui, de nombreux établissements dépendent fortement des grandes entreprises technologiques. Cette dépendance crée des situations problématiques :<br/><br/>• du matériel encore fonctionnel devient <strong class=\"text-nird-gold font-bold\">inutilisable</strong> à cause d’une mise à jour,<br/>• les licences logicielles pèsent lourd dans les budgets,<br/>• les données scolaires sont stockées hors d’Europe,<br/>• les écosystèmes fermés empêchent les écoles d’adapter ou de réparer leurs outils.",
+            "p2": "Face à ces contraintes, <strong class=\"text-nird-gold font-bold\">NIRD propose un autre chemin</strong> : reprendre le pouvoir sur l’environnement numérique, réduire l’impact écologique et développer des pratiques plus <strong class=\"text-nird-gold font-bold\">autonomes</strong> et <strong class=\"text-nird-gold font-bold\">durables</strong>."
+        },
+        "section3": {
+            "title": "3. Les Trois Piliers de NIRD",
+            "p1": "<strong class=\"text-nird-gold font-bold\">Inclusion :</strong> réduire les inégalités numériques, garantir l’accès pour tous, utiliser des outils accessibles et gratuits.",
+            "p2": "<strong class=\"text-nird-gold font-bold\">Responsabilité :</strong> limiter l’empreinte carbone, consommer moins de ressources numériques, favoriser des outils respectueux des données.",
+            "p3": "<strong class=\"text-nird-gold font-bold\">Durabilité :</strong> prolonger la durée de vie du matériel, lutter contre l’obsolescence programmée, encourager le libre et la réparation."
+        },
+        "section4": {
+            "title": "4. Les Actions Principales de NIRD (les 6 activités)",
+            "p1": "<strong class=\"text-nird-gold font-bold\">1. Sensibiliser à la sobriété numérique</strong> — Éduquer sur l’impact énergétique, encourager des usages raisonnés : stockage responsable, streaming limité, optimisation des appareils.",
+            "p2": "<strong class=\"text-nird-gold font-bold\">2. Réemploi & reconditionnement</strong> — Réparer et réutiliser plutôt que jeter : réduire les déchets électroniques et économiser des ressources.",
+            "p3": "<strong class=\"text-nird-gold font-bold\">3. Promouvoir Linux</strong> — Allonger la durée de vie du matériel, réduire les coûts, favoriser les logiciels libres et sécurisés.",
+            "p4": "<strong class=\"text-nird-gold font-bold\">4. Mutualiser les outils libres</strong> — Partager des ressources, guides et logiciels via <em class=\"text-nird-gold italic\">La Forge des communs numériques éducatifs</em>.",
+            "p5": "<strong class=\"text-nird-gold font-bold\">5. Accompagner la transition écoresponsable</strong> — Conseils techniques, ateliers, guides pratiques, aide aux collectivités.",
+            "p6": "<strong class=\"text-nird-gold font-bold\">6. Co-construire des solutions locales</strong> — Créer des outils adaptés : applications, ressources pédagogiques, infrastructures locales."
+        },
+        "section5": {
+            "title": "5. Section Interactive — Scénario",
+            "p1": "Mini-simulation <strong class=\"text-nird-gold font-bold\">“Choisissez votre école numérique”</strong> — Les visiteurs doivent choisir :",
+            "p2": "<ul class=\"list-disc ml-6 sm:ml-8 md:ml-12\"><li>Système : <strong class=\"text-nird-gold font-bold\">Linux</strong> ou <strong class=\"text-nird-gold font-bold\">Windows</strong></li><li>Réparer ou acheter un nouvel ordinateur ?</li><li>Cloud européen ou américain ?</li><li>Logiciel libre ou propriétaire ?</li></ul>",
+            "p3": "Chaque choix affiche un impact : <span class=\"text-green-400\">🟢 +2 Durabilité</span>, <span class=\"text-yellow-300\">🟡 +1 Responsabilité</span>, <span class=\"text-red-400\">🔴 –2 Inclusion</span>",
+            "p4": "<strong class=\"text-nird-gold font-bold\">Score final :</strong> Votre école est <span class=\"text-nird-gold font-bold\">73% NIRD-compatible</span> !"
+        },
+        "section6": {
+            "title": "6. Outils & Ressources",
+            "p1": "<strong class=\"text-nird-gold font-bold\">Outils libres recommandés :</strong><br/>Linux Mint / Ubuntu Éducation, LibreOffice, Moodle, Etherpad / Cryptpad, Firefox ESR.",
+            "p2": "<strong class=\"text-nird-gold font-bold\">Guides utiles :</strong> prolonger la durée de vie d’un PC, installer Linux, adopter des pratiques de sobriété numérique.",
+            "p3": "<strong class=\"text-nird-gold font-bold\">Ressources NIRD :</strong> Forge des communs, fiches pédagogiques, tutoriels de reconditionnement."
+        },
+        "section7": {
+            "title": "7. Appel à l'Action — Rejoignez le Mouvement",
+            "p1": "Rejoignez la communauté <strong class=\"text-nird-gold font-bold\">NIRD</strong> et contribuez à construire un numérique éthique, durable et accessible.",
+            "btn1": "Découvrir les outils libres",
+            "btn2": "Tester la simulation",
+            "btn3": "Participer",
+            "btn4": "Télécharger les guides"
+        },
+        "nav": {
+            "start": "Début",
+            "next": "Suivant",
+            "end": "Fin"
+        }
     }
 }

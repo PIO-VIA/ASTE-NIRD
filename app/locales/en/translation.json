@@ -104,5 +104,58 @@
             "progress": "Progress saved",
             "share": "Shareable results"
         }
+    },
+    "presentation_page": {
+        "section1": {
+            "title": "1. Introduction — What is NIRD?",
+            "p1": "The <strong class=\"text-nird-gold font-bold\">NIRD</strong> approach is an educational movement that aims to help schools adopt a digital environment that is <em class=\"text-nird-gold italic\">freer</em>, <em class=\"text-nird-gold italic\">more ethical</em>, and <em class=\"text-nird-gold italic\">more sustainable</em>.",
+            "p2": "It brings together <strong class=\"text-nird-gold font-bold\">teachers</strong>, <strong class=\"text-nird-gold font-bold\">students</strong>, <strong class=\"text-nird-gold font-bold\">technicians</strong>, <strong class=\"text-nird-gold font-bold\">local authorities</strong>, and <strong class=\"text-nird-gold font-bold\">associations</strong> to build a digital world truly at the service of education."
+        },
+        "section2": {
+            "title": "2. Why NIRD? — Why does it matter?",
+            "p1": "Today, many institutions depend heavily on large technology companies. This dependence creates problematic situations:<br/><br/>• functional hardware becomes <strong class=\"text-nird-gold font-bold\">unusable</strong> due to an update,<br/>• software licenses weigh heavily on budgets,<br/>• school data is stored outside Europe,<br/>• closed ecosystems prevent schools from adapting or repairing their tools.",
+            "p2": "Faced with these constraints, <strong class=\"text-nird-gold font-bold\">NIRD proposes another path</strong>: regaining power over the digital environment, reducing ecological impact, and developing more <strong class=\"text-nird-gold font-bold\">autonomous</strong> and <strong class=\"text-nird-gold font-bold\">sustainable</strong> practices."
+        },
+        "section3": {
+            "title": "3. The Three Pillars of NIRD",
+            "p1": "<strong class=\"text-nird-gold font-bold\">Inclusion:</strong> reducing digital inequalities, ensuring access for all, using accessible and free tools.",
+            "p2": "<strong class=\"text-nird-gold font-bold\">Responsibility:</strong> limiting carbon footprint, consuming fewer digital resources, favoring data-respectful tools.",
+            "p3": "<strong class=\"text-nird-gold font-bold\">Durability:</strong> extending hardware life, fighting planned obsolescence, encouraging free software and repair."
+        },
+        "section4": {
+            "title": "4. NIRD’s Main Actions (the 6 activities)",
+            "p1": "<strong class=\"text-nird-gold font-bold\">1. Raising awareness about digital sobriety</strong> — Educating on energy impact, encouraging reasoned uses: responsible storage, limited streaming, device optimization.",
+            "p2": "<strong class=\"text-nird-gold font-bold\">2. Reuse & Refurbishment</strong> — Repairing and reusing rather than throwing away: reducing electronic waste and saving resources.",
+            "p3": "<strong class=\"text-nird-gold font-bold\">3. Promoting Linux</strong> — Extending hardware life, reducing costs, favoring free and secure software.",
+            "p4": "<strong class=\"text-nird-gold font-bold\">4. Pooling free tools</strong> — Sharing resources, guides, and software via <em class=\"text-nird-gold italic\">The Forge of Educational Digital Commons</em>.",
+            "p5": "<strong class=\"text-nird-gold font-bold\">5. Supporting eco-responsible transition</strong> — Technical advice, workshops, practical guides, help for local authorities.",
+            "p6": "<strong class=\"text-nird-gold font-bold\">6. Co-constructing local solutions</strong> — Creating adapted tools: applications, educational resources, local infrastructures."
+        },
+        "section5": {
+            "title": "5. Interactive Section — Scenario",
+            "p1": "Mini-simulation <strong class=\"text-nird-gold font-bold\">“Choose your digital school”</strong> — Visitors must choose:",
+            "p2": "<ul class=\"list-disc ml-6 sm:ml-8 md:ml-12\"><li>System: <strong class=\"text-nird-gold font-bold\">Linux</strong> or <strong class=\"text-nird-gold font-bold\">Windows</strong></li><li>Repair or buy a new computer?</li><li>European or American cloud?</li><li>Free or proprietary software?</li></ul>",
+            "p3": "Each choice displays an impact: <span class=\"text-green-400\">🟢 +2 Durability</span>, <span class=\"text-yellow-300\">🟡 +1 Responsibility</span>, <span class=\"text-red-400\">🔴 –2 Inclusion</span>",
+            "p4": "<strong class=\"text-nird-gold font-bold\">Final Score:</strong> Your school is <span class=\"text-nird-gold font-bold\">73% NIRD-compatible</span>!"
+        },
+        "section6": {
+            "title": "6. Tools & Resources",
+            "p1": "<strong class=\"text-nird-gold font-bold\">Recommended free tools:</strong><br/>Linux Mint / Ubuntu Education, LibreOffice, Moodle, Etherpad / Cryptpad, Firefox ESR.",
+            "p2": "<strong class=\"text-nird-gold font-bold\">Useful guides:</strong> extending PC life, installing Linux, adopting digital sobriety practices.",
+            "p3": "<strong class=\"text-nird-gold font-bold\">NIRD Resources:</strong> Commons Forge, educational sheets, refurbishment tutorials."
+        },
+        "section7": {
+            "title": "7. Call to Action — Join the Movement",
+            "p1": "Join the <strong class=\"text-nird-gold font-bold\">NIRD</strong> community and contribute to building an ethical, sustainable, and accessible digital world.",
+            "btn1": "Discover free tools",
+            "btn2": "Test the simulation",
+            "btn3": "Participate",
+            "btn4": "Download guides"
+        },
+        "nav": {
+            "start": "Start",
+            "next": "Next",
+            "end": "End"
+        }
     }
 }
