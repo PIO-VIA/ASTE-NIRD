@@ -36,7 +36,7 @@ export default function Navbar() {
 
     const navLinks = [
         { href: '/', label: t('navbar.home'), icon: <Home className="w-4 h-4" /> },
-        { href: '/#story', label: t('navbar.story'), icon: <BookOpen className="w-4 h-4" /> },
+        { href: '/presentation', label: t('Classroom'), icon: <BookOpen className="w-4 h-4" /> },
         { href: '/jeux', label: t('navbar.quiz'), icon: <Gamepad2 className="w-4 h-4" /> },
     ];
 
