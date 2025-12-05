@@ -4,7 +4,6 @@ import Tiles from '../../components/TIles'
 import Navbar from '@/components/ui/Navbar'
 import { Home, Book, Cpu, Star, Flag, Settings, Monitor } from 'lucide-react'
 
-
 interface Paragraph {
   text: string
   className?: string
